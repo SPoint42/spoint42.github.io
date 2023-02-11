@@ -6,10 +6,9 @@ categories: tweet commit blog
 ---
 
 
-On remercie chaleureusement la Justice française de nous sortir une liste de sites sur lesquels trouver des films et séries, et qu’on pourra librement consulter en utilisant les dns d’OpenDNS, Google ou FDN. https://bit.ly/3JYXlUU
+On remercie chaleureusement la Justice française de nous sortir une liste de sites sur lesquels trouver des films et séries, et qu’on pourra librement consulter en utilisant les dns d’OpenDNS, Google ou FDN. (https://bit.ly/3JYXlUU)
 
 — Simon (@Modj0r) Feb 10, 2023
 
 February 10, 2023 at 05:37PM
 
-via Twitter https://twitter.com/Modj0r
