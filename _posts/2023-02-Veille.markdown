@@ -1,18 +1,18 @@
 ---
 layout: post
 title:  "February screening articles"
-date:   2023-02-17 00:00:00 +0100
+date:   2023-02-10 00:00:00 +0100
 categories: veille security
 ---
 
 # French articles
-* Comment assurer la sécurité de vos applications malgré l’externalisation de leur développement ?  par @WaveStone
-``` L’intégration de la sécurité dans les projets est un processus important pour les entreprises pour définir et intégrer les aspects sécurité au plus tôt dans les produits. Cela évite d’augmenter le coût des remédiations si celles-ci n’ont pas été prévues et sont implémentées en fin de projet.
+* Comment assurer la sécurité de vos applications malgré l’externalisation de leur développement ?  par [@WaveStone](https://bit.ly/3YqsaX4)
+    > L’intégration de la sécurité dans les projets est un processus >important pour les entreprises pour définir et intégrer les aspects sécurité au plus tôt dans les produits. Cela évite d’augmenter le coût des remédiations si celles-ci n’ont pas été prévues et sont implémentées en fin de projet.
 
-Dans le cadre de développements, l’Agile Security et le DevSecOps définissent les processus et outils à mettre en place pour intégrer la sécurité au plus tôt, comme présenté dans notre article précédent donnant des exemples.
+    > Dans le cadre de développements, l’Agile Security et le DevSecOps définissent les processus et outils à mettre en place pour intégrer la sécurité au plus tôt, comme présenté dans notre article précédent donnant des exemples.
 
-Ces méthodes sont souvent définies sur les développements internes. Cependant, il est fréquent que les entreprises fassent appel à des prestataires externes pour développer une application ou une fonctionnalité particulière. Dans ce cas, il est important de s’assurer que ces prestataires suivent des pratiques de sécurité rigoureuses et qu’ils intègrent la sécurité dans leurs processus de développement aux mêmes standards que le demandeur. Ce qui amène la question suivante :``` 
- 
+    > Ces méthodes sont souvent définies sur les développements internes.
+ 
 
 
 
