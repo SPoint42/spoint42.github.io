@@ -14,5 +14,11 @@ categories: veille security
 * Vulnerabilité dans OpenSSL par [@CERTFR](https://bit.ly/40MsRLQ)
     > CERTFR-2023-AVI-0102 : Multiples vulnérabilités dans OpenSSL (08 février 2023)
   
+* vulnerabilité dans PostgreSQL par [@CERTFR](https://bit.ly/3YNiqWJ)
+    > CERTFR-2023-AVI-0107 : Vulnérabilité dans PostgreSQL (09 février 2023)
+
 
 # English articles
+* SANS ISC A First Malicious OneNote Document [SANS ISC](https://bit.ly/40LpB3f)
+    > Attackers are always trying to find new ways to deliver malware to victims. They recently started sending Microsoft OneNote files in massive phishing campaigns. OneNote files (ending the extension “.one”) are handled automatically by computers that have the Microsoft Office suite installed. Yesterday, my honeypot caught a first sample. This is a good opportunity to have a look at these files. The file, called “delivery-note.one”, was delivered as an attachment to a classic phishing email… 
+ January 25, 2023 at 08:55PM
