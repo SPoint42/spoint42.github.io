@@ -28,7 +28,7 @@ twitter_username: SPoint
 github_username:  SPoint42
 
 # Build settings
-theme: minima
+theme: tactile
 plugins:
   - jekyll-feed
 
