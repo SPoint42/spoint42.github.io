@@ -13,8 +13,8 @@ Avec l'essor rapide des technologies d'intelligence artificielle générative (G
 🔒 1. Insights Clés et Cadre Pratique pour le Red Teaming GEN AI :
 Le guide OWASP propose une approche structurée pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Cette méthode permet de simuler des attaques réelles pour tester la robustesse des défenses mises en place.
 
-	- Pourquoi est-ce important ? Le Red Teaming aide à identifier les failles de sécurité avant qu'elles ne soient exploitées par des attaquants, permettant ainsi aux organisations de renforcer leurs mesures de protection.
-	- Exemple concret : Une équipe de Red Teaming pourrait tester un modèle de traitement du langage naturel pour voir s'il peut être manipulé pour divulguer des informations sensibles.
+- Pourquoi est-ce important ? Le Red Teaming aide à identifier les failles de sécurité avant qu'elles ne soient exploitées par des attaquants, permettant ainsi aux organisations de renforcer leurs mesures de protection.
+- Exemple concret : Une équipe de Red Teaming pourrait tester un modèle de traitement du langage naturel pour voir s'il peut être manipulé pour divulguer des informations sensibles.
 
 
 
@@ -23,7 +23,7 @@ L'OWASP met en avant l'importance de sécuriser les applications GEN AI à chaqu
 - Pourquoi est-ce important ? Une approche intégrée de la sécurité permet de minimiser les risques et de garantir que les applications GEN AI sont robustes et fiables.
 - Exemple concret : Implémenter des contrôles de sécurité dès la phase de conception, comme l'anonymisation des données sensibles, peut prévenir les fuites d'informations lors du déploiement.
 
-👥 3. Conçu pour les Leaders Technologiques, Développeurs, Data Scientists et Experts en Sécurité :
+👥 3. Conçu pour les  CISO, Développeurs, Data Scientists et Experts en Sécurité :
 
 Le guide est destiné à un large éventail de professionnels impliqués dans le développement et la gestion des technologies GEN AI. Il offre des recommandations pratiques adaptées à chaque rôle.
 
@@ -46,4 +46,4 @@ Le guide est destiné à un large éventail de professionnels impliqués dans le
 	- Scénario : Un attaquant pourrait injecter des instructions malveillantes dans les prompts utilisés par un modèle GEN AI, altérant ainsi son comportement.
 	- Conséquence : Compromission de la sécurité du système et exécution non autorisée d'actions.
 
-🌐 En savoir plus : OWASP Top 10: LLM & Generative AI Security Risks 1
+🌐 En savoir plus : [OWASP Top 10: LLM & Generative AI Security Risks](https://genaisecurityproject.com/llm-top-10/)
