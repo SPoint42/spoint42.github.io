@@ -28,9 +28,9 @@ twitter_username: SPoint
 github_username:  SPoint42
 
 # Build settings
-theme: tactile
+remote_theme: pages-themes/tactile@v0.2.0
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
