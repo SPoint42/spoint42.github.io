@@ -1,17 +1,18 @@
 ---
 layout: post
-title:  "🚀 Le Guide de Sécurité GEN AI de l'OWASP !"
+title:  "🚀 Sécurité de la GEN AI && OWASP !"
 date:   2025-02-23 00:00:00 +0100
 categories: veille security owasp genAI 
 lang : french
 ---
 
-Ce post est le premier d'une série de plusieurs articles autour des risques et de comment l'OWASP peut aider a protéger des systèmes de Generative AI . Nous 
-commencons par présentez rapidement le Guide  [OWASP Top 10: LLM & Generative AI Security Risks](https://genaisecurityproject.com/llm-top-10/). 
+Ce post est le premier d'une série de plusieurs articles autour des risques et de comment l'OWASP peut aider a protéger des systèmes de Generative AI . Il fait suite a la présentation que j'ai pu effectuer en Décembre 2024 à [Hack-it-n](https://hack-it-n.com/), et va continuer sur différents sujets autour de cette GEN AI
+
+Nous commencons par présentez rapidement le Guide  [OWASP Top 10: LLM & Generative AI Security Risks](https://genaisecurityproject.com/llm-top-10/). 
 
 
 Avec l'essor rapide des technologies d'intelligence artificielle générative (GEN AI), les défis en matière de sécurité deviennent de plus en plus complexes. 
-L'OWASP a récemment publié une mise a jour du guide complet pour aider les organisations à naviguer dans ce paysage en constante évolution.
+L'OWASP a donc  publié une mise a jour du guide complet pour aider les organisations à naviguer dans ce paysage en constante évolution.
 
 🔒 Pourquoi ce guide est-il crucial dans votre déploiement d'une solution de GEN AI?
 
