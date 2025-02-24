@@ -28,8 +28,7 @@ sur la protection des données comme le RGPD ou HIPAA.
 - Utilisez des techniques telles que la pseudonymisation et le hachage pour protéger les informations personnelles.
   - [OWASP Cheat Sheet: Data Anonymization](https://cheatsheetseries.owasp.org/cheatsheets/Data_Anonymization_Cheat_Sheet.html)
 
-- **Contrôles d'Accès :** Mettez en place des contrôles d'accès stricts pour limiter l'accès aux données sensibles uniquement aux personnes 
-- autorisées. Utilisez des mécanismes d'authentification et d'autorisation robustes.
+- **Contrôles d'Accès :** Mettez en place des contrôles d'accès stricts pour limiter l'accès aux données sensibles uniquement aux personnes autorisées. Utilisez des mécanismes d'authentification et d'autorisation robustes.
   - [OWASP Cheat Sheet: Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
 
 - **Surveillance et Audit :** Implémentez des mécanismes de surveillance pour détecter et répondre rapidement aux accès non autorisés ou aux 
