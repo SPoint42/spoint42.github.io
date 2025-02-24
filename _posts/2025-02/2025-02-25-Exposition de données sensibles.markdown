@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "🚀 Sécurité de la GEN AI && OWASP ! - Exemple de risque concret et de ses conséquences - 1/5"
-date:   2025-02-25 00:00:00 +0100
+date:   2025-02-24 17:00:00 +0100
 categories: veille security owasp genAI 
 lang : french
 ---
