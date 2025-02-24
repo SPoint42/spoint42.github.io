@@ -7,9 +7,7 @@ lang : french
 ---
 
 
-🛡️ **Guide de Red Teaming pour GEN AI**
-
-L'OWASP a publié un guide pratique pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Ce guide aide les organisations 
+🛡️ L'OWASP a publié un guide pratique pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Ce guide aide les organisations 
 à identifier et à atténuer les risques de sécurité associés aux technologies d'IA générative.
 
 🎯 Rappel des Objectifs d'une Red Team :
