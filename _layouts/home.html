@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+{% include header.html %}
+
+<div class="tabs">
+    <button class="tab-button" onclick="openTab(event, 'Home')">Home</button>
+    <button class="tab-button" onclick="openTab(event, 'About')">About</button>
+    <button class="tab-button" onclick="openTab(event, 'Contact')">Contact</button>
+</div>
+
+<div id="Home" class="tab-content">
+    {% assign posts_by_month = site.posts | group_by_exp:"post", "post.date | date: '%Y-%m'" %}
+    {% for month in posts_by_month %}
+    <h3>{{ month.name | date: "%B %Y" }}</h3>
+    <ul>
+        {% for post in month.items %}
+        <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <p>{{ post.excerpt }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</div>
+
+
+<div id="About" class="tab-content">
+    <!--    <h2>About</h2>-->
+    <!--    <p>Contenu de l'onglet About.</p>-->
+    <!--    <div id="github-stats">-->
+    <!--        <p>Followers: <span id="github-followers">Loading...</span></p>-->
+    <!--        <p>Following: <span id="github-following">Loading...</span></p>-->
+    <!--        <p>Repositories: <span id="github-repos">Loading...</span></p>-->
+    <!--    </div>-->
+</div>
+
+<div id="Contact" class="tab-content">
+
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tab-button");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Afficher le premier onglet par défaut
+    document.getElementsByClassName("tab-button")[0].click();
+</script>
+
+</body>
+</html>
+
+
+
+

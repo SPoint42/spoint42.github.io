@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-24T16:34:41+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mais Encore</title><subtitle>Security musings</subtitle><entry xml:lang="french"><title type="html">Guide de Red Teaming pour GEN AI de l’OWASP !</title><link href="http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide.html" rel="alternate" type="text/html" title="Guide de Red Teaming pour GEN AI de l’OWASP !" /><published>2025-02-24T00:00:00+01:00</published><updated>2025-02-24T00:00:00+01:00</updated><id>http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide</id><content type="html" xml:base="http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide.html"><![CDATA[<p>🛡️ <strong>Guide de Red Teaming pour GEN AI</strong></p>
+
+<p>L’OWASP a publié un guide pratique pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Ce guide aide les organisations 
+à identifier et à atténuer les risques de sécurité associés aux technologies d’IA générative.</p>
+
+<p>🎯 Rappel des Objectifs d’une Red Team :</p>
+
+<ol>
+  <li>Simuler des Attaques Réelles :
+    <ul>
+      <li>Objectif : Mettre à l’épreuve les défenses d’une organisation en reproduisant des scénarios d’attaques réelles. Cela permet de vérifier l’efficacité des mesures de sécurité en place face à des menaces concrètes.</li>
+      <li>Méthodologie : Utiliser des techniques et des outils similaires à ceux employés par des attaquants potentiels pour tenter de pénétrer les systèmes de l’organisation.</li>
+      <li>Avantages : Permet de découvrir comment les systèmes réagissent sous pression et d’identifier les points faibles qui pourraient être exploités lors d’une véritable attaque.</li>
+      <li>Outils : <a href="https://www.metasploit.com/">Metasploit</a>, <a href="https://portswigger.net/burp">Burp Suite</a>, <a href="https://www.promptfoo.dev/">PromptFoo</a> .</li>
+    </ul>
+  </li>
+  <li>Identifier les Failles de Sécurité :
+    <ul>
+      <li>Objectif : Détecter les vulnérabilités et les failles dans les systèmes de sécurité avant qu’elles ne soient exploitées par des acteurs malveillants.</li>
+      <li>Méthodologie : Effectuer des tests approfondis pour repérer les faiblesses, telles que des configurations incorrectes, des logiciels obsolètes, ou des erreurs de codage.</li>
+      <li>Avantages : Permet de corriger proactivement les vulnérabilités, réduisant ainsi le risque d’incidents de sécurité.</li>
+      <li>Outils : <a href="https://www.zaproxy.org/">ZAP</a>, <a href="https://nmap.org/">Nmap</a>, <a href="https://docs.projectdiscovery.io/tools/nuclei/overview">Nuclei</a></li>
+    </ul>
+  </li>
+  <li>Améliorer Continuellement les Mesures de Sécurité :
+    <ul>
+      <li>Objectif : Mettre en œuvre des améliorations continues des stratégies et des outils de sécurité pour renforcer la posture de sécurité globale de l’organisation.</li>
+      <li>Méthodologie : Analyser les résultats des simulations d’attaques pour identifier les domaines nécessitant des améliorations, puis mettre en place des mesures correctives.</li>
+      <li>Avantages : Encourage une culture de sécurité proactive, où les systèmes et les processus sont régulièrement mis à jour pour faire face aux menaces émergentes.</li>
+      <li>Outils : <a href="https://www.defectdojo.org/">DefectDojo</a>, <a href="https://www.ossec.net/">OSS Sec</a></li>
+    </ul>
+  </li>
+</ol>
+
+<p>En résumé, une Red Team joue un rôle crucial dans le renforcement de la sécurité d’une organisation en adoptant une approche proactive pour tester et améliorer les défenses contre les cybermenaces.</p>
+
+<hr />
+
+<p>🌐 <strong>En savoir plus</strong> : <a href="https://genai.owasp.org/2025/01/22/announcing-the-owasp-gen-ai-red-teaming-guide/">The OWASP Gen AI Red Teaming Guide</a></p>]]></content><author><name></name></author><category term="veille" /><category term="security" /><category term="owasp" /><category term="genAI" /><category term="red" /><category term="team" /><summary type="html"><![CDATA[🛡️ Guide de Red Teaming pour GEN AI]]></summary></entry><entry xml:lang="french"><title type="html">Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP !</title><link href="http://localhost:4000/veille/security/owasp/genai/2025/02/23/GenAI.html" rel="alternate" type="text/html" title="Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP !" /><published>2025-02-23T00:00:00+01:00</published><updated>2025-02-23T00:00:00+01:00</updated><id>http://localhost:4000/veille/security/owasp/genai/2025/02/23/GenAI</id><content type="html" xml:base="http://localhost:4000/veille/security/owasp/genai/2025/02/23/GenAI.html"><![CDATA[<p>🚀 Ce post est le premier d’une série de plusieurs articles autour des risques et de comment l’OWASP peut aider a protéger des systèmes de Generative AI . Il fait suite a la présentation que j’ai pu effectuer en Décembre 2024 à <a href="https://hack-it-n.com/">Hack-it-n</a>, et va continuer sur différents sujets autour de cette GEN AI</p>
+
+<p>Nous commencons par présenter rapidement le Guide  <a href="https://genaisecurityproject.com/llm-top-10/">OWASP Top 10: LLM &amp; Generative AI Security Risks</a>.</p>
+
+<p>Avec l’essor rapide des technologies d’intelligence artificielle générative (GEN AI), les défis en matière de sécurité deviennent de plus en plus complexes. 
+L’OWASP a donc  publié une mise a jour du guide complet pour aider les organisations à naviguer dans ce paysage en constante évolution.</p>
+
+<p>🔒 Pourquoi ce guide est-il crucial dans votre déploiement d’une solution de GEN AI?</p>
+
+<p>🔒 1. Apport d’éléments Clés et d’un référenttiel  pour le Testing en Red Teaming d’une  GEN AI :
+Le guide OWASP propose une approche structurée pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Cette méthode permet de 
+simuler des attaques réelles pour tester la robustesse des défenses mises en place.</p>
+
+<ul>
+  <li>Pourquoi est-ce important ? Le Red Teaming aide à identifier les failles de sécurité avant qu’elles ne soient exploitées par des attaquants, permettant 
+ainsi aux organisations de renforcer leurs mesures de protection.</li>
+  <li>Exemple concret : Une équipe de Red Teaming pourrait tester un modèle de traitement du langage naturel pour voir s’il peut être manipulé pour divulguer 
+des informations sensibles.</li>
+</ul>
+
+<p>🔄 2. Sécurisation des Applications GEN AI Tout au Long du Cycle de Vie LLMSecOps :
+L’OWASP met en avant l’importance de sécuriser les applications GEN AI à chaque étape de leur cycle de vie, de la conception à la mise en œuvre et à la 
+maintenance.</p>
+
+<ul>
+  <li>Pourquoi est-ce important ? Une approche intégrée de la sécurité permet de minimiser les risques et de garantir que les applications GEN AI sont 
+robustes et fiables.</li>
+  <li>Exemple concret : Implémenter des contrôles de sécurité dès la phase de conception, comme l’anonymisation des données sensibles, peut prévenir les 
+fuites d’informations lors du déploiement.</li>
+</ul>
+
+<p>👥 3. Conçu pour les  CISO, Développeurs, Data Scientists et Experts en Sécurité :</p>
+
+<p>Le guide est destiné à un large éventail de professionnels impliqués dans le développement et la gestion des technologies GEN AI. Il offre des 
+recommandations pratiques adaptées à chaque rôle.</p>
+
+<ul>
+  <li>Pourquoi est-ce important ? Une approche collaborative permet de s’assurer que toutes les parties prenantes sont alignées sur les meilleures pratiques 
+en matière de sécurité.</li>
+  <li>Exemple concret : Les développeurs peuvent utiliser le guide pour implémenter des techniques de codage sécurisé, tandis que les experts en sécurité 
+peuvent s’en servir pour auditer les systèmes GEN AI.</li>
+</ul>
+
+<p>🌐 En savoir plus sur le guide : <a href="https://genaisecurityproject.com/llm-top-10/">OWASP Top 10: LLM &amp; Generative AI Security Risks</a></p>]]></content><author><name></name></author><category term="veille" /><category term="security" /><category term="owasp" /><category term="genAI" /><summary type="html"><![CDATA[🚀 Ce post est le premier d’une série de plusieurs articles autour des risques et de comment l’OWASP peut aider a protéger des systèmes de Generative AI . Il fait suite a la présentation que j’ai pu effectuer en Décembre 2024 à Hack-it-n, et va continuer sur différents sujets autour de cette GEN AI]]></summary></entry></feed>

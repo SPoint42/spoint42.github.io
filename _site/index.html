@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Mais Encore</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+
+
+<div class="tabs">
+    <button class="tab-button" onclick="openTab(event, 'Home')">Home</button>
+    <button class="tab-button" onclick="openTab(event, 'About')">About</button>
+    <button class="tab-button" onclick="openTab(event, 'Contact')">Contact</button>
+</div>
+
+<div id="Home" class="tab-content">
+    
+    
+    <h3>2025-02</h3>
+    <ul>
+        
+        <li>
+            <a href="/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide.html">Guide de Red Teaming pour GEN AI de l'OWASP !</a>
+            <p><p>🛡️ <strong>Guide de Red Teaming pour GEN AI</strong></p>
+</p>
+        </li>
+        
+        <li>
+            <a href="/veille/security/owasp/genai/2025/02/23/GenAI.html">Sécurité de la GEN AI && OWASP !</a>
+            <p><p>🚀 Ce post est le premier d’une série de plusieurs articles autour des risques et de comment l’OWASP peut aider a protéger des systèmes de Generative AI . Il fait suite a la présentation que j’ai pu effectuer en Décembre 2024 à <a href="https://hack-it-n.com/">Hack-it-n</a>, et va continuer sur différents sujets autour de cette GEN AI</p>
+</p>
+        </li>
+        
+    </ul>
+    
+</div>
+
+
+<div id="About" class="tab-content">
+    <!--    <h2>About</h2>-->
+    <!--    <p>Contenu de l'onglet About.</p>-->
+    <!--    <div id="github-stats">-->
+    <!--        <p>Followers: <span id="github-followers">Loading...</span></p>-->
+    <!--        <p>Following: <span id="github-following">Loading...</span></p>-->
+    <!--        <p>Repositories: <span id="github-repos">Loading...</span></p>-->
+    <!--    </div>-->
+</div>
+
+<div id="Contact" class="tab-content">
+
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tab-button");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Afficher le premier onglet par défaut
+    document.getElementsByClassName("tab-button")[0].click();
+</script>
+
+</body>
+</html>
+
+
+
+

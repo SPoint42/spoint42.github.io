@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guide de Red Teaming pour GEN AI de l'OWASP !</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Mais Encore</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+
+<div class="tabs">
+    <button class="tab-button" onclick="openTab(event, 'Home')">Home</button>
+    <button class="tab-button" onclick="openTab(event, 'About')">About</button>
+    <button class="tab-button" onclick="openTab(event, 'Contact')">Contact</button>
+</div>
+<div class="post-content">
+    <p>🛡️ <strong>Guide de Red Teaming pour GEN AI</strong></p>
+
+<p>L’OWASP a publié un guide pratique pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Ce guide aide les organisations 
+à identifier et à atténuer les risques de sécurité associés aux technologies d’IA générative.</p>
+
+<p>🎯 Rappel des Objectifs d’une Red Team :</p>
+
+<ol>
+  <li>Simuler des Attaques Réelles :
+    <ul>
+      <li>Objectif : Mettre à l’épreuve les défenses d’une organisation en reproduisant des scénarios d’attaques réelles. Cela permet de vérifier l’efficacité des mesures de sécurité en place face à des menaces concrètes.</li>
+      <li>Méthodologie : Utiliser des techniques et des outils similaires à ceux employés par des attaquants potentiels pour tenter de pénétrer les systèmes de l’organisation.</li>
+      <li>Avantages : Permet de découvrir comment les systèmes réagissent sous pression et d’identifier les points faibles qui pourraient être exploités lors d’une véritable attaque.</li>
+      <li>Outils : <a href="https://www.metasploit.com/">Metasploit</a>, <a href="https://portswigger.net/burp">Burp Suite</a>, <a href="https://www.promptfoo.dev/">PromptFoo</a> .</li>
+    </ul>
+  </li>
+  <li>Identifier les Failles de Sécurité :
+    <ul>
+      <li>Objectif : Détecter les vulnérabilités et les failles dans les systèmes de sécurité avant qu’elles ne soient exploitées par des acteurs malveillants.</li>
+      <li>Méthodologie : Effectuer des tests approfondis pour repérer les faiblesses, telles que des configurations incorrectes, des logiciels obsolètes, ou des erreurs de codage.</li>
+      <li>Avantages : Permet de corriger proactivement les vulnérabilités, réduisant ainsi le risque d’incidents de sécurité.</li>
+      <li>Outils : <a href="https://www.zaproxy.org/">ZAP</a>, <a href="https://nmap.org/">Nmap</a>, <a href="https://docs.projectdiscovery.io/tools/nuclei/overview">Nuclei</a></li>
+    </ul>
+  </li>
+  <li>Améliorer Continuellement les Mesures de Sécurité :
+    <ul>
+      <li>Objectif : Mettre en œuvre des améliorations continues des stratégies et des outils de sécurité pour renforcer la posture de sécurité globale de l’organisation.</li>
+      <li>Méthodologie : Analyser les résultats des simulations d’attaques pour identifier les domaines nécessitant des améliorations, puis mettre en place des mesures correctives.</li>
+      <li>Avantages : Encourage une culture de sécurité proactive, où les systèmes et les processus sont régulièrement mis à jour pour faire face aux menaces émergentes.</li>
+      <li>Outils : <a href="https://www.defectdojo.org/">DefectDojo</a>, <a href="https://www.ossec.net/">OSS Sec</a></li>
+    </ul>
+  </li>
+</ol>
+
+<p>En résumé, une Red Team joue un rôle crucial dans le renforcement de la sécurité d’une organisation en adoptant une approche proactive pour tester et améliorer les défenses contre les cybermenaces.</p>
+
+<hr />
+
+<p>🌐 <strong>En savoir plus</strong> : <a href="https://genai.owasp.org/2025/01/22/announcing-the-owasp-gen-ai-red-teaming-guide/">The OWASP Gen AI Red Teaming Guide</a></p>
+
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tab-button");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
+
+</body>
+</html>

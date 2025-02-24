@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "🚀 Guide de Red Teaming pour GEN AI de l'OWASP !"
+title:  "Guide de Red Teaming pour GEN AI de l'OWASP !"
 date:   2025-02-24 00:00:00 +0100
 categories: veille security owasp genAI red team
 lang : french
@@ -9,7 +9,8 @@ lang : french
 
 🛡️ **Guide de Red Teaming pour GEN AI**
 
-L'OWASP a publié un guide pratique pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Ce guide aide les organisations à identifier et à atténuer les risques de sécurité associés aux technologies d'IA générative.
+L'OWASP a publié un guide pratique pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Ce guide aide les organisations 
+à identifier et à atténuer les risques de sécurité associés aux technologies d'IA générative.
 
 🎯 Rappel des Objectifs d'une Red Team :
 
