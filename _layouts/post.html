@@ -12,6 +12,16 @@
     <button class="tab-button" onclick="openTab(event, 'About')">About</button>
     <button class="tab-button" onclick="openTab(event, 'Contact')">Contact</button>
 </div>
+
+<div>
+<h1 style="text-align: center">
+    {{ page.title }}
+</h1>
+</div>
+<div id="post-date" style="speak-date: inherit; font-size: 0,5em; text-align: center;">
+    {{ page.date | date: "%B %-d, %Y" }}
+</div>
+
 <div class="post-content">
     {{ content }}
 </div>

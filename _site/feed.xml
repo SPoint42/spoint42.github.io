@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-24T16:34:41+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mais Encore</title><subtitle>Security musings</subtitle><entry xml:lang="french"><title type="html">Guide de Red Teaming pour GEN AI de l’OWASP !</title><link href="http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide.html" rel="alternate" type="text/html" title="Guide de Red Teaming pour GEN AI de l’OWASP !" /><published>2025-02-24T00:00:00+01:00</published><updated>2025-02-24T00:00:00+01:00</updated><id>http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide</id><content type="html" xml:base="http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide.html"><![CDATA[<p>🛡️ <strong>Guide de Red Teaming pour GEN AI</strong></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-24T16:50:36+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mais Encore</title><subtitle>Security musings</subtitle><entry xml:lang="french"><title type="html">Guide de Red Teaming pour GEN AI de l’OWASP !</title><link href="http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide.html" rel="alternate" type="text/html" title="Guide de Red Teaming pour GEN AI de l’OWASP !" /><published>2025-02-24T00:00:00+01:00</published><updated>2025-02-24T00:00:00+01:00</updated><id>http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide</id><content type="html" xml:base="http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide.html"><![CDATA[<p>🛡️ <strong>Guide de Red Teaming pour GEN AI</strong></p>
 
 <p>L’OWASP a publié un guide pratique pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Ce guide aide les organisations 
 à identifier et à atténuer les risques de sécurité associés aux technologies d’IA générative.</p>
@@ -43,11 +43,13 @@
 <p>Avec l’essor rapide des technologies d’intelligence artificielle générative (GEN AI), les défis en matière de sécurité deviennent de plus en plus complexes. 
 L’OWASP a donc  publié une mise a jour du guide complet pour aider les organisations à naviguer dans ce paysage en constante évolution.</p>
 
-<p>🔒 Pourquoi ce guide est-il crucial dans votre déploiement d’une solution de GEN AI?</p>
+<p><strong>Pourquoi ce guide est-il crucial dans votre déploiement d’une solution de GEN AI?</strong></p>
 
-<p>🔒 1. Apport d’éléments Clés et d’un référenttiel  pour le Testing en Red Teaming d’une  GEN AI :
+<ol>
+  <li>Apport d’éléments Clés et d’un référenttiel  pour le Testing en Red Team d’une  GEN AI :
 Le guide OWASP propose une approche structurée pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Cette méthode permet de 
-simuler des attaques réelles pour tester la robustesse des défenses mises en place.</p>
+simuler des attaques réelles pour tester la robustesse des défenses mises en place.</li>
+</ol>
 
 <ul>
   <li>Pourquoi est-ce important ? Le Red Teaming aide à identifier les failles de sécurité avant qu’elles ne soient exploitées par des attaquants, permettant 
@@ -56,9 +58,11 @@ ainsi aux organisations de renforcer leurs mesures de protection.</li>
 des informations sensibles.</li>
 </ul>
 
-<p>🔄 2. Sécurisation des Applications GEN AI Tout au Long du Cycle de Vie LLMSecOps :
+<ol>
+  <li>Sécurisation des Applications GEN AI Tout au Long du Cycle de Vie LLMSecOps :
 L’OWASP met en avant l’importance de sécuriser les applications GEN AI à chaque étape de leur cycle de vie, de la conception à la mise en œuvre et à la 
-maintenance.</p>
+maintenance.</li>
+</ol>
 
 <ul>
   <li>Pourquoi est-ce important ? Une approche intégrée de la sécurité permet de minimiser les risques et de garantir que les applications GEN AI sont 
@@ -67,7 +71,9 @@ robustes et fiables.</li>
 fuites d’informations lors du déploiement.</li>
 </ul>
 
-<p>👥 3. Conçu pour les  CISO, Développeurs, Data Scientists et Experts en Sécurité :</p>
+<ol>
+  <li>Conçu pour les  CISOs, Développeurs, Data Scientists et Experts en Sécurité :</li>
+</ol>
 
 <p>Le guide est destiné à un large éventail de professionnels impliqués dans le développement et la gestion des technologies GEN AI. Il offre des 
 recommandations pratiques adaptées à chaque rôle.</p>
