@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-24T16:57:55+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mais Encore</title><subtitle>Security musings</subtitle><entry xml:lang="french"><title type="html">Guide de Red Teaming pour GEN AI de l’OWASP !</title><link href="http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide.html" rel="alternate" type="text/html" title="Guide de Red Teaming pour GEN AI de l’OWASP !" /><published>2025-02-24T00:00:00+01:00</published><updated>2025-02-24T00:00:00+01:00</updated><id>http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide</id><content type="html" xml:base="http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide.html"><![CDATA[<p>🛡️ L’OWASP a publié un guide pratique pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Ce guide aide les organisations 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-24T17:15:34+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mais Encore</title><subtitle>Security musings</subtitle><entry xml:lang="french"><title type="html">Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP ! 💥 Exposition de Données Sensibles 💥</title><link href="http://localhost:4000/veille/security/owasp/genai/2025/02/24/Exposition-de-donn%C3%A9es-sensibles.html" rel="alternate" type="text/html" title="Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP ! 💥 Exposition de Données Sensibles 💥" /><published>2025-02-24T17:00:00+01:00</published><updated>2025-02-24T17:00:00+01:00</updated><id>http://localhost:4000/veille/security/owasp/genai/2025/02/24/Exposition%20de%20donn%C3%A9es%20sensibles</id><content type="html" xml:base="http://localhost:4000/veille/security/owasp/genai/2025/02/24/Exposition-de-donn%C3%A9es-sensibles.html"><![CDATA[<p>L’exposition de données sensibles se produit lorsque des informations confidentielles, telles que des identifiants personnels, des
+informations financières, des dossiers médicaux, ou des secrets commerciaux, deviennent accessibles à des parties non autorisées.</p>
+
+<h3 id="scénario">Scénario</h3>
+
+<p>Une application de santé utilise un modèle d’intelligence artificielle générative (GEN AI) pour analyser des dossiers médicaux afin 
+d’identifier des tendances et de fournir des recommandations de traitement. Cependant, les données des patients ne sont pas correctement 
+anonymisées avant d’être traitées par le modèle GEN AI.</p>
+
+<h3 id="conséquence">Conséquence</h3>
+
+<p>Les informations personnelles sensibles des patients, telles que les noms, les numéros de sécurité sociale, et les historiques médicaux, 
+sont accidentellement exposées. Cela entraîne une violation de la confidentialité des patients et une non-conformité avec les réglementations 
+sur la protection des données comme le RGPD ou HIPAA.</p>
+
+<h3 id="meilleures-pratiques-de-protection">Meilleures Pratiques de Protection</h3>
+
+<ul>
+  <li><strong>Anonymisation des Données :</strong> Assurez-vous que toutes les données sensibles sont anonymisées avant d’être traitées par le modèle GEN AI.</li>
+  <li>Utilisez des techniques telles que la pseudonymisation et le hachage pour protéger les informations personnelles.
+    <ul>
+      <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Data_Anonymization_Cheat_Sheet.html">OWASP Cheat Sheet: Data Anonymization</a></li>
+    </ul>
+  </li>
+  <li><strong>Contrôles d’Accès :</strong> Mettez en place des contrôles d’accès stricts pour limiter l’accès aux données sensibles uniquement aux personnes</li>
+  <li>autorisées. Utilisez des mécanismes d’authentification et d’autorisation robustes.
+    <ul>
+      <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html">OWASP Cheat Sheet: Authentication</a></li>
+    </ul>
+  </li>
+  <li><strong>Surveillance et Audit :</strong> Implémentez des mécanismes de surveillance pour détecter et répondre rapidement aux accès non autorisés ou aux</li>
+  <li>comportements suspects. Effectuez régulièrement des audits de sécurité pour identifier les vulnérabilités potentielles.
+    <ul>
+      <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html">OWASP Cheat Sheet: Logging</a></li>
+    </ul>
+  </li>
+  <li><strong>Chiffrement :</strong> Chiffrez les données sensibles à la fois en transit et au repos pour empêcher les accès non autorisés, même en cas de fuite</li>
+  <li>de données.
+    <ul>
+      <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html">OWASP Cheat Sheet: Cryptographic Storage</a></li>
+      <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html">OWASP Cheat Sheet : Transport Layer Security Cheat Sheet</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="exemple-concret">Exemple Concret</h3>
+
+<p><strong>CVE-2024-5982</strong> : Une vulnérabilité de traversée de répertoire dans la fonction de téléchargement utilisateur de ChuanhuChatGPT a permis 
+l’exécution arbitraire de code, la création de répertoires, et l’exposition de données sensibles. Cette vulnérabilité illustre comment des 
+failles dans les systèmes utilisant l’IA générative peuvent être exploitées pour accéder à des informations sensibles.</p>
+
+<p>🌐 <strong><a href="https://thehackernews.com/2024/10/researchers-uncover-vulnerabilities-in.html">En savoir plus sur la CVE-2024-5982</a></strong></p>
+
+<hr />]]></content><author><name></name></author><category term="veille" /><category term="security" /><category term="owasp" /><category term="genAI" /><summary type="html"><![CDATA[L’exposition de données sensibles se produit lorsque des informations confidentielles, telles que des identifiants personnels, des informations financières, des dossiers médicaux, ou des secrets commerciaux, deviennent accessibles à des parties non autorisées.]]></summary></entry><entry xml:lang="french"><title type="html">Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP ! 🛡️Guide de Red Teaming pour GEN AI de l’OWASP !🛡️</title><link href="http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide.html" rel="alternate" type="text/html" title="Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP ! 🛡️Guide de Red Teaming pour GEN AI de l’OWASP !🛡️" /><published>2025-02-24T09:00:00+01:00</published><updated>2025-02-24T09:00:00+01:00</updated><id>http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide</id><content type="html" xml:base="http://localhost:4000/veille/security/owasp/genai/red/team/2025/02/24/RedTeamAIGuide.html"><![CDATA[<p>🛡️ L’OWASP a publié un guide pratique pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Ce guide aide les organisations 
 à identifier et à atténuer les risques de sécurité associés aux technologies d’IA générative.</p>
 
 <p>🎯 Rappel des Objectifs d’une Red Team :</p>
@@ -34,7 +87,7 @@
 
 <hr />
 
-<p>🌐 <strong>En savoir plus</strong> : <a href="https://genai.owasp.org/2025/01/22/announcing-the-owasp-gen-ai-red-teaming-guide/">The OWASP Gen AI Red Teaming Guide</a></p>]]></content><author><name></name></author><category term="veille" /><category term="security" /><category term="owasp" /><category term="genAI" /><category term="red" /><category term="team" /><summary type="html"><![CDATA[🛡️ L’OWASP a publié un guide pratique pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Ce guide aide les organisations à identifier et à atténuer les risques de sécurité associés aux technologies d’IA générative.]]></summary></entry><entry xml:lang="french"><title type="html">Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP !</title><link href="http://localhost:4000/veille/security/owasp/genai/2025/02/23/GenAI.html" rel="alternate" type="text/html" title="Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP !" /><published>2025-02-23T00:00:00+01:00</published><updated>2025-02-23T00:00:00+01:00</updated><id>http://localhost:4000/veille/security/owasp/genai/2025/02/23/GenAI</id><content type="html" xml:base="http://localhost:4000/veille/security/owasp/genai/2025/02/23/GenAI.html"><![CDATA[<p>🚀 Ce post est le premier d’une série de plusieurs articles autour des risques et de comment l’OWASP peut aider a protéger des systèmes de Generative AI . Il fait suite a la présentation que j’ai pu effectuer en Décembre 2024 à <a href="https://hack-it-n.com/">Hack-it-n</a>, et va continuer sur différents sujets autour de cette GEN AI</p>
+<p>🌐 <strong>En savoir plus</strong> : <a href="https://genai.owasp.org/2025/01/22/announcing-the-owasp-gen-ai-red-teaming-guide/">The OWASP Gen AI Red Teaming Guide</a></p>]]></content><author><name></name></author><category term="veille" /><category term="security" /><category term="owasp" /><category term="genAI" /><category term="red" /><category term="team" /><summary type="html"><![CDATA[🛡️ L’OWASP a publié un guide pratique pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Ce guide aide les organisations à identifier et à atténuer les risques de sécurité associés aux technologies d’IA générative.]]></summary></entry><entry xml:lang="french"><title type="html">⚙️ Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP ! ⚙️</title><link href="http://localhost:4000/veille/security/owasp/genai/2025/02/23/GenAI.html" rel="alternate" type="text/html" title="⚙️ Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP ! ⚙️" /><published>2025-02-23T00:00:00+01:00</published><updated>2025-02-23T00:00:00+01:00</updated><id>http://localhost:4000/veille/security/owasp/genai/2025/02/23/GenAI</id><content type="html" xml:base="http://localhost:4000/veille/security/owasp/genai/2025/02/23/GenAI.html"><![CDATA[<p>🚀 Ce post est le premier d’une série de plusieurs articles autour des risques et de comment l’OWASP peut aider a protéger des systèmes de Generative AI . Il fait suite a la présentation que j’ai pu effectuer en Décembre 2024 à <a href="https://hack-it-n.com/">Hack-it-n</a>, et va continuer sur différents sujets autour de cette GEN AI</p>
 
 <p>Nous commencons par présenter rapidement le Guide  <a href="https://genaisecurityproject.com/llm-top-10/">OWASP Top 10: LLM &amp; Generative AI Security Risks</a>.</p>
 

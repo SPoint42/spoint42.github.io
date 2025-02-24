@@ -21,7 +21,7 @@
     <ul>
         {% for post in month.items %}
         <li>
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <a href="{{ post.url | relative_url }}">{{ post.date | date: '%Y-%m-%d-%H-%M' }} : {{ post.title }}</a>
             <p>{{ post.excerpt }}</p>
         </li>
         {% endfor %}

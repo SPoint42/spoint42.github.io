@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sécurité de la GEN AI && OWASP !"
+title:  " ⚙️ Sécurité de la GEN AI && OWASP ! ⚙️ "
 date:   2025-02-23 00:00:00 +0100
 categories: veille security owasp genAI 
 lang : french

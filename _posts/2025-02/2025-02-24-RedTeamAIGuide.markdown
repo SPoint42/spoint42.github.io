@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Guide de Red Teaming pour GEN AI de l'OWASP !"
-date:   2025-02-24 00:00:00 +0100
+title:  "Sécurité de la GEN AI && OWASP ! 🛡️Guide de Red Teaming pour GEN AI de l'OWASP !🛡️"
+date:   2025-02-24 09:00:00 +0100
 categories: veille security owasp genAI red team
 lang : french
 ---
