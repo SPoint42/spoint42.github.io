@@ -17,7 +17,7 @@ L'OWASP a publié un guide pratique pour évaluer les vulnérabilités des syst�
 	- Objectif : Mettre à l'épreuve les défenses d'une organisation en reproduisant des scénarios d'attaques réelles. Cela permet de vérifier l'efficacité des mesures de sécurité en place face à des menaces concrètes.
 	- Méthodologie : Utiliser des techniques et des outils similaires à ceux employés par des attaquants potentiels pour tenter de pénétrer les systèmes de l'organisation.
 	- Avantages : Permet de découvrir comment les systèmes réagissent sous pression et d'identifier les points faibles qui pourraient être exploités lors d'une véritable attaque.
-    - Outils : [Metasploit](https://www.metasploit.com/), [Burp Suite](https://portswigger.net/burp), N'importe quel outil de Chat AI pour générer des scénarios d'attaque.
+    - Outils : [Metasploit](https://www.metasploit.com/), [Burp Suite](https://portswigger.net/burp), [PromptFoo](https://www.promptfoo.dev/) .
 
 2. Identifier les Failles de Sécurité :
 	- Objectif : Détecter les vulnérabilités et les failles dans les systèmes de sécurité avant qu'elles ne soient exploitées par des acteurs malveillants.
