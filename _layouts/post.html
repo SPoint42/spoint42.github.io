@@ -26,6 +26,21 @@
     {{ content }}
 </div>
 
+<div class="post-navigation">
+    {% if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}" class="previous" style="float: left;">
+        &larr; {{ page.previous.date | date: '%Y-%m-%d-%H-%M' }}
+    </a>
+    {% endif %}
+
+    {% if page.next %}
+    <a href="{{ page.next.url | relative_url }}" class="next" style="float: right;">
+        {{ page.next.date | date: '%Y-%m-%d-%H-%M' }} :  &rarr;
+    </a>
+    {% endif %}
+</div>
+
+
 <script>
     function openTab(evt, tabName) {
         var i, tabcontent, tablinks;
