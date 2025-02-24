@@ -1,0 +1,25 @@
+
+---
+layout: post
+title:  "🚀 Sécurité de la GEN AI && OWASP !"
+date:   2025-02-23 00:00:00 +0100
+categories: veille security owasp genAI 
+lang : french
+---
+
+Attaques par Injection de Prompts :
+	- Scénario : Un attaquant pourrait injecter des instructions malveillantes dans les prompts utilisés par un modèle GEN AI, altérant ainsi son 
+	comportement.  et permettant l'exécution de code non autorisé.
+
+
+	- Conséquence : Compromission de la sécurité du système et exécution non autorisée d'actions.
+	
+	- Exemple concret : La [CVE-2024-5565](https://github.com/advisories/GHSA-7735-w2jp-gvg6) est une vulnérabilité  de prompt injection dans la 
+	bibliothèque Vanna.AI, permettant l'exécution de commandes arbitraires à distance. Cette faille expose les bases de données à des risques d'exécution 
+	de code malveillant.
+
+	Meilleures Pratiques :
+
+Validation des Entrées : Validez et nettoyez toutes les entrées utilisateur pour éviter l'injection de code malveillant.
+Utilisation de Modèles Sécurisés : Utilisez des modèles GEN AI qui incluent des mécanismes de sécurité pour prévenir l'injection de prompts.
+Tests de Sécurité : Effectuez régulièrement des tests de sécurité pour identifier et corriger les vulnérabilités potentielles.

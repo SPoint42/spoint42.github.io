@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "🚀 Sécurité de la GEN AI && OWASP !"
+date:   2025-02-23 00:00:00 +0100
+categories: veille security owasp genAI 
+lang : french
+---
+
+
+Fuites de Données via API
+
+Exemple : Une vulnérabilité dans une API a permis à des attaquants d'accéder à des données sensibles en exploitant des failles dans la gestion des requêtes.
+
+Meilleures Pratiques :
+
+Sécurisation des API : Utilisez des pratiques de sécurité robustes pour protéger les API, y compris l'authentification et l'autorisation.
+Limitation du Taux : Implémentez la limitation du taux pour prévenir les abus des API.
+Surveillance des Logs : Surveillez les logs des API pour détecter et répondre rapidement aux comportements suspects.
+En suivant ces meilleures pratiques, les développeurs peuvent atténuer les risques associés aux vulnérabilités de la GEN AI et garantir une utilisation sécurisée de ces technologies.

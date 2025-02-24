@@ -47,30 +47,6 @@ en matière de sécurité.
 peuvent s'en servir pour auditer les systèmes GEN AI. 
 
 
-🚨 Exemples de Scénarios de risques concrets et leur conséquence :
-
-1. Fuites de Données Sensibles :
-	- Scénario : Une application de santé utilisant GEN AI pour analyser des dossiers médicaux pourrait accidentellement exposer des informations 
-	personnelles sensibles si les données ne sont pas correctement anonymisées ou protégées.
-	- Conséquence : Violation de la confidentialité des patients et non-conformité aux réglementations comme le RGPD.
-	- Exemple concret : Une vulnérabilité de traversée de répertoire ([CWE-22](https://www.cvedetails.com/cwe-details/22/Improper-Limitation-of-a-Pathname-to-a-Restricted-Directory-.html) ) dans la fonction de téléchargement d'utilisateur de 
-	ChuanhuChatGPT, identifiée comme [CVE-2024-5982](https://www.cvedetails.com/cve/CVE-2024-5982/), a permis l'exécution arbitraire de code, la 
-	création de répertoires et l'exposition de données sensibles 
-
-2. Manipulation par Deepfakes :
-	- Scénario : Des deepfakes réalistes peuvent être utilisés pour diffuser de fausses informations ou manipuler des individus. Par exemple, 
-	une vidéo deepfake d'un PDG annonçant une fausse acquisition pourrait influencer le marché boursier.
-	- Conséquence : Perte de confiance du public et impact financier potentiellement désastreux.
-	- Exemple concret : La chanteuse [Taylor Swift](https://intelligence-artificielle.com/taylor-swift-victime-deepfake/) a été victime de deepfakes pornographiques diffusés sur la plateforme X, générés via 
-	Microsoft Designer par un groupe Telegram. 
-
-3. Attaques par Injection de Prompts :
-	- Scénario : Un attaquant pourrait injecter des instructions malveillantes dans les prompts utilisés par un modèle GEN AI, altérant ainsi son 
-	comportement.
-	- Conséquence : Compromission de la sécurité du système et exécution non autorisée d'actions.
-	- Exemple concret : La [CVE-2024-5565](https://github.com/advisories/GHSA-7735-w2jp-gvg6) est une vulnérabilité  de prompt injection dans la 
-	bibliothèque Vanna.AI, permettant l'exécution de commandes arbitraires à distance. Cette faille expose les bases de données à des risques d'exécution 
-	de code malveillant.
 
 
 🌐 En savoir plus sur le guide : [OWASP Top 10: LLM & Generative AI Security Risks](https://genaisecurityproject.com/llm-top-10/)
