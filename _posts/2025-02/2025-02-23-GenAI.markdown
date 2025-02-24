@@ -13,9 +13,9 @@ Nous commencons par présenter rapidement le Guide  [OWASP Top 10: LLM & Generat
 Avec l'essor rapide des technologies d'intelligence artificielle générative (GEN AI), les défis en matière de sécurité deviennent de plus en plus complexes. 
 L'OWASP a donc  publié une mise a jour du guide complet pour aider les organisations à naviguer dans ce paysage en constante évolution.
 
-🔒 Pourquoi ce guide est-il crucial dans votre déploiement d'une solution de GEN AI?
+**Pourquoi ce guide est-il crucial dans votre déploiement d'une solution de GEN AI?**
 
-🔒 1. Apport d'éléments Clés et d'un référenttiel  pour le Testing en Red Teaming d'une  GEN AI :
+1. Apport d'éléments Clés et d'un référenttiel  pour le Testing en Red Team d'une  GEN AI :
 Le guide OWASP propose une approche structurée pour évaluer les vulnérabilités des systèmes GEN AI à travers le Red Teaming. Cette méthode permet de 
 simuler des attaques réelles pour tester la robustesse des défenses mises en place.
 
@@ -25,8 +25,7 @@ ainsi aux organisations de renforcer leurs mesures de protection.
 des informations sensibles.
 
 
-
-🔄 2. Sécurisation des Applications GEN AI Tout au Long du Cycle de Vie LLMSecOps :
+2. Sécurisation des Applications GEN AI Tout au Long du Cycle de Vie LLMSecOps :
 L'OWASP met en avant l'importance de sécuriser les applications GEN AI à chaque étape de leur cycle de vie, de la conception à la mise en œuvre et à la 
 maintenance.
 
@@ -35,7 +34,7 @@ robustes et fiables.
 - Exemple concret : Implémenter des contrôles de sécurité dès la phase de conception, comme l'anonymisation des données sensibles, peut prévenir les 
 fuites d'informations lors du déploiement.
 
-👥 3. Conçu pour les  CISO, Développeurs, Data Scientists et Experts en Sécurité :
+3. Conçu pour les  CISOs, Développeurs, Data Scientists et Experts en Sécurité :
 
 Le guide est destiné à un large éventail de professionnels impliqués dans le développement et la gestion des technologies GEN AI. Il offre des 
 recommandations pratiques adaptées à chaque rôle.
