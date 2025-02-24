@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+    {% include header.html %}
+
+    <div class="tabs">
+        {% assign months = site.posts | group_by_exp:"post", "post.date | date: '%Y-%m'" %}
+        {% for month in months %}
+            <button class="tab-button" onclick="openTab(event, '{{ month.name }}')">{{ month.name | date: "%B %Y" }}</button>
+        {% endfor %}
+    </div>
+
+    {% for month in months %}
+        <div id="{{ month.name }}" class="tab-content">
+            <h2>{{ month.name | date: "%B %Y" }}</h2>
+            <ul>
+                {% for post in month.items %}
+                    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {{ post.date | date: "%d %B %Y" }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endfor %}
+
+    <script>
+        function openTab(evt, monthName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(monthName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Afficher le premier onglet par défaut
+        document.getElementsByClassName("tab-button")[0].click();
+    </script>
+</body>
+</html>
