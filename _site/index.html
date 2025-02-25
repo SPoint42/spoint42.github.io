@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
+<div>
 <header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Mais Encore</a><nav class="site-nav">
@@ -22,11 +23,9 @@
       </nav></div>
 </header>
 
-
-<div class="tabs">
-    <button class="tab-button" onclick="openTab(event, 'Home')">Home</button>
-    <button class="tab-button" onclick="openTab(event, 'About')">About</button>
-    <button class="tab-button" onclick="openTab(event, 'Contact')">Contact</button>
+</div>
+<div id="home-menu" class="tabs">
+<!--    <button class="tab-button" onclick=>Home</button>-->
 </div>
 
 <div id="Home" class="tab-content">
@@ -82,24 +81,7 @@ informations financières, des dossiers médicaux, ou des secrets commerciaux, d
 
 </div>
 
-<script>
-    function openTab(evt, tabName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tab-content");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tab-button");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(tabName).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
 
-    // Afficher le premier onglet par défaut
-    document.getElementsByClassName("tab-button")[0].click();
-</script>
 
 </body>
 </html>
