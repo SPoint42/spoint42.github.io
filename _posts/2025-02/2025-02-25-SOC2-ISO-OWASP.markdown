@@ -1,6 +1,6 @@
 ---
 title:  "🗺️ OWASP ASVS / SOC2 mapping"
-date:   2025-02-25 18:00:00 +0100
+date:   2025-02-25 11:00:00 +0100
 categories: veille security owasp SOC2
 lang : french
 layout: post

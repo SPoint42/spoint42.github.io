@@ -1,4 +1,167 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-25T12:05:02+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mais Encore</title><subtitle>Security musings</subtitle><entry xml:lang="french"><title type="html">Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP ! 💥 Exposition de Données Sensibles 💥</title><link href="http://localhost:4000/2025/02/24/Exposition-de-donn%C3%A9es-sensibles/" rel="alternate" type="text/html" title="Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP ! 💥 Exposition de Données Sensibles 💥" /><published>2025-02-24T17:00:00+01:00</published><updated>2025-02-24T17:00:00+01:00</updated><id>http://localhost:4000/2025/02/24/Exposition%20de%20donn%C3%A9es%20sensibles</id><content type="html" xml:base="http://localhost:4000/2025/02/24/Exposition-de-donn%C3%A9es-sensibles/"><![CDATA[<p>L’exposition de données sensibles se produit lorsque des informations confidentielles, telles que des identifiants personnels, des
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-25T13:02:40+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mais Encore</title><subtitle>Security musings</subtitle><entry xml:lang="french"><title type="html">🗺️ OWASP ASVS / SOC2 mapping</title><link href="http://localhost:4000/2025/02/25/SOC2-ISO-OWASP/" rel="alternate" type="text/html" title="🗺️ OWASP ASVS / SOC2 mapping" /><published>2025-02-25T11:00:00+01:00</published><updated>2025-02-25T11:00:00+01:00</updated><id>http://localhost:4000/2025/02/25/SOC2-ISO-OWASP</id><content type="html" xml:base="http://localhost:4000/2025/02/25/SOC2-ISO-OWASP/"><![CDATA[<p>Dans le cadre des développements autour d’applications modernes vous avez surement vu passer les références à des normes de 
+sécurité telles que <a href="https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html">SOC2</a> (bien 
+que SOC2 ne soit pas une réelle norme de sécurité ) et <a href="https://www.iso.org/fr/isoiec-27001-information-security.html">ISO27000</a>.</p>
+
+<div style="border: 2px solid #ddd; padding: 15px; border-radius: 5px;">
+  💡 <b>SOC 2</b> est une norme de sécurité des informations qui évalue les contrôles de sécurité d'une organisation en fonction de cinq critères :
+<ul>
+<li>sécurité, </li>
+<li>disponibilité, </li>
+<li>intégrité du traitement, </li>
+<li>confidentialité</li>
+<li>vie privée.</li>
+</ul>
+ Elle est proposée par <a href="https://www.aicpa.org">l'American Institute of Certified Public Accountants (AICPA)</a>et est souvent utilisée pour évaluer la sécurité des fournisseurs de services cloud et des entreprises technologiques.
+</div>
+
+<p>Ces normes sont de plus en plus demandées par les clients pour garantir la sécurité des données et des systèmes.
+ A ce titre, il est intéressant de vous proposer un mapping entre le guide
+<a href="https://owasp.org/www-project-application-security-verification-standard/">OWASP ASVS (Application Security Verification Standard</a>) et les 
+contrôles de sécurité SOC 2 que j’ai pu établir rapidement récemment.</p>
+
+<p>Cela permet de mieux comprendre comment les bonnes pratiques de sécurité d’OWASP peuvent être mises en œuvre pour répondre aux exigences de SOC 2.</p>
+
+<h3 id="-mapping-is--currently-under-construction-please-check-back-later-for-updates-">🚧 Mapping is  currently under construction. Please check back later for updates! 🚧</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Category</strong></th>
+      <th><strong>SOC 2 Control</strong></th>
+      <th><strong>Description</strong></th>
+      <th><strong>OWASP ASVS Requirement</strong></th>
+      <th><strong>OWASP ressources</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Security</strong></td>
+      <td>Logical Access Controls (CC6.1)</td>
+      <td>Restrict access to systems and data to authorized users.</td>
+      <td><a href="https://github.com/OWASP/ASVS/blob/master/4.0/en/0x11-V2-Authentication.md">ASVS-2 Authentication</a></td>
+      <td><a href="https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html">Authentication Cheat Sheet</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>System Security Settings (CC6.2)</td>
+      <td>Implement security settings to protect against unauthorized access.</td>
+      <td><a href="https://github.com/OWASP/ASVS/blob/master/4.0/en/0x22-V14-Config.md">ASVS-14 Security Configuration</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Access Monitoring (CC6.3)</td>
+      <td>Monitor and log access to detect unauthorized activities.</td>
+      <td><a href="https://github.com/OWASP/ASVS/blob/master/4.0/en/0x15-V7-Error-Logging.md">ASVS-7 Logging and Monitoring</a></td>
+      <td><a href="https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html">Logging Cheat Sheet</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Intrusion Detection (CC6.4)</td>
+      <td>Detect and respond to intrusions.</td>
+      <td><a href="https://github.com/OWASP/ASVS/blob/master/4.0/en/0x22-V14-Config.md">ASVS-14 Security Configuration</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Firewall Configuration (CC6.5)</td>
+      <td>Use firewalls to protect the network perimeter.</td>
+      <td><a href="https://github.com/OWASP/ASVS/blob/master/4.0/en/0x10-V1-Architecture.md#v114-configuration-architecture">ASVS-1.14.1  Network Security</a></td>
+      <td><a href="https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html">Attack Surface Analysis Cheat Sheet</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Vulnerability Management (CC6.6)</td>
+      <td>Regularly scan for and remediate vulnerabilities.</td>
+      <td><a href="https://github.com/OWASP/ASVS/blob/master/4.0/en/0x22-V14-Config.md">ASVS-14.1.1 Vulnerability Scanning, ASVS-14.3 Unintended Security Disclosure</a></td>
+      <td><a href="https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html">Vulnerability Disclosure</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Security Incident Response (CC6.7)</td>
+      <td>Plan and respond to security incidents.</td>
+      <td><a href="https://github.com/OWASP/ASVS/blob/master/4.0/en/0x22-V14-Config.md">ASVS-14.3 Unintended Security Disclosure</a></td>
+      <td><a href="https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html">Vulnerability Disclosure</a></td>
+    </tr>
+    <tr>
+      <td><strong>Availability</strong></td>
+      <td>Business Continuity Plan (CC7.1)</td>
+      <td>Ensure business continuity during disruptions.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Disaster Recovery Plan (CC7.2)</td>
+      <td>Restore services quickly after disruptions.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Performance Monitoring (CC7.3)</td>
+      <td>Monitor system performance to ensure availability.</td>
+      <td><a href="https://github.com/OWASP/ASVS/blob/master/4.0/en/0x15-V7-Error-Logging.md">ASVS-7 Logging and Monitoring</a></td>
+      <td><a href="https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html">Logging Cheat Sheet</a></td>
+    </tr>
+    <tr>
+      <td><strong>Confidentiality</strong></td>
+      <td>Data Encryption (CC8.1)</td>
+      <td>Encrypt sensitive data at rest and in transit.</td>
+      <td><a href="https://github.com/OWASP/ASVS/blob/master/4.0/en/0x17-V9-Communications.md">ASVS-9  Communication</a></td>
+      <td><a href="https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html">Transport Layer Security  Cheat Sheet</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Key Management (CC8.2)</td>
+      <td>Manage cryptographic keys securely.</td>
+      <td><a href="https://github.com/OWASP/ASVS/blob/master/4.0/en/0x14-V6-Cryptography.md">ASVS-6.4  Key Management</a></td>
+      <td><a href="https://cheatsheetseries.owasp.org/cheatsheets/Key_Management_Cheat_Sheet.html">Key Management Cheat Sheet</a></td>
+    </tr>
+    <tr>
+      <td><strong>Processing Integrity</strong></td>
+      <td>Input Validation (CC9.1)</td>
+      <td>Validate inputs to prevent injection attacks and other vulnerabilities.</td>
+      <td><a href="https://github.com/OWASP/ASVS/blob/master/4.0/en/0x13-V5-Validation-Sanitization-Encoding.md">ASVS-5  Input Validation</a></td>
+      <td><a href="https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html">Input Validation Cheat Sheet</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Version Control (CC9.2)</td>
+      <td>Manage changes to code and configurations.</td>
+      <td><a href="https://github.com/OWASP/ASVS/blob/master/4.0/en/0x22-V14-Config.md">ASVS-14.1  Build &amp; Deploy</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong>Privacy</strong></td>
+      <td>Personal Data Protection (CC10.1)</td>
+      <td>Protect personal data according to privacy policies.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Security Awareness Training (CC10.2)</td>
+      <td>Provide regular security awareness training to employees.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Data Minimization (CC10.3)</td>
+      <td>Collect and store only necessary personal data.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Data Retention and Disposal (CC10.4)</td>
+      <td>Implement policies for data retention and secure disposal.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name></name></author><category term="veille" /><category term="security" /><category term="owasp" /><category term="SOC2" /><summary type="html"><![CDATA[Dans le cadre des développements autour d’applications modernes vous avez surement vu passer les références à des normes de sécurité telles que SOC2 (bien que SOC2 ne soit pas une réelle norme de sécurité ) et ISO27000.]]></summary></entry><entry xml:lang="french"><title type="html">Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP ! 💥 Exposition de Données Sensibles 💥</title><link href="http://localhost:4000/2025/02/24/Exposition-de-donn%C3%A9es-sensibles/" rel="alternate" type="text/html" title="Sécurité de la GEN AI &amp;amp;&amp;amp; OWASP ! 💥 Exposition de Données Sensibles 💥" /><published>2025-02-24T17:00:00+01:00</published><updated>2025-02-24T17:00:00+01:00</updated><id>http://localhost:4000/2025/02/24/Exposition%20de%20donn%C3%A9es%20sensibles</id><content type="html" xml:base="http://localhost:4000/2025/02/24/Exposition-de-donn%C3%A9es-sensibles/"><![CDATA[<p>L’exposition de données sensibles se produit lorsque des informations confidentielles, telles que des identifiants personnels, des
 informations financières, des dossiers médicaux, ou des secrets commerciaux, deviennent accessibles à des parties non autorisées.</p>
 
 <h3 id="scénario">Scénario</h3>
@@ -22,8 +185,7 @@ sur la protection des données comme le RGPD ou HIPAA.</p>
       <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Data_Anonymization_Cheat_Sheet.html">OWASP Cheat Sheet: Data Anonymization</a></li>
     </ul>
   </li>
-  <li><strong>Contrôles d’Accès :</strong> Mettez en place des contrôles d’accès stricts pour limiter l’accès aux données sensibles uniquement aux personnes</li>
-  <li>autorisées. Utilisez des mécanismes d’authentification et d’autorisation robustes.
+  <li><strong>Contrôles d’Accès :</strong> Mettez en place des contrôles d’accès stricts pour limiter l’accès aux données sensibles uniquement aux personnes autorisées. Utilisez des mécanismes d’authentification et d’autorisation robustes.
     <ul>
       <li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html">OWASP Cheat Sheet: Authentication</a></li>
     </ul>
