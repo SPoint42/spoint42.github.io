@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🤖 Exemple de Pre-Prompting pour IA"
-date: 2025-02-27 13:33:00
+date: 2025-02-27 01:33:00
 categories: [IA, Programmation]
 tags: [pre-prompting, python]
 ---
