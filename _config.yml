@@ -30,6 +30,7 @@ github_username:  SPoint42
 # Build settings
 theme: minima
 markdown: kramdown
+highlighter: redcarpet
 plugins:
   - jekyll-feed
 
