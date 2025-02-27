@@ -6,6 +6,8 @@ categories: [IA, Programmation]
 tags: [pre-prompting, python]
 ---
 
+Le pre-prompting quesako ? 🤔
+
 ## 🤔 Qu'est-ce que le Pre-Prompting ?
 
 Le pre-prompting consiste à fournir des instructions ou des contextes spécifiques à une IA avant 
