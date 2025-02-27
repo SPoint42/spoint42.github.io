@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-27T13:20:20+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mais Encore</title><subtitle>Security musings</subtitle><entry><title type="html">🔒🤖 OWASP Top10 LLM - Introduction aux Risques de Sécurité des Large Language Models (LLM) : L’Injection de Prompt</title><link href="http://localhost:4000/2025/02/27/prompt/" rel="alternate" type="text/html" title="🔒🤖 OWASP Top10 LLM - Introduction aux Risques de Sécurité des Large Language Models (LLM) : L’Injection de Prompt" /><published>2025-02-27T10:00:00+01:00</published><updated>2025-02-27T10:00:00+01:00</updated><id>http://localhost:4000/2025/02/27/prompt</id><content type="html" xml:base="http://localhost:4000/2025/02/27/prompt/"><![CDATA[<p>Les Large Language Models (LLM) sont de plus en plus intégrés dans diverses applications, allant des chatbots aux 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-27T13:51:20+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mais Encore</title><subtitle>Security musings</subtitle><entry><title type="html">🔒🤖 OWASP Top10 LLM - Introduction aux Risques de Sécurité des Large Language Models (LLM) : L’Injection de Prompt</title><link href="http://localhost:4000/2025/02/27/prompt/" rel="alternate" type="text/html" title="🔒🤖 OWASP Top10 LLM - Introduction aux Risques de Sécurité des Large Language Models (LLM) : L’Injection de Prompt" /><published>2025-02-27T10:00:00+01:00</published><updated>2025-02-27T10:00:00+01:00</updated><id>http://localhost:4000/2025/02/27/prompt</id><content type="html" xml:base="http://localhost:4000/2025/02/27/prompt/"><![CDATA[<p>Les Large Language Models (LLM) sont de plus en plus intégrés dans diverses applications, allant des chatbots aux 
 systèmes de recommandation. Cependant, leur utilisation croissante s’accompagne de risques de sécurité significatifs. 
 L’un des principaux risques identifiés par l’OWASP Top 10 pour les applications LLM est l’<strong>injection de prompt</strong>.</p>
 
@@ -31,7 +31,7 @@ ou contextuelle. Chaque type présente des défis uniques en matière de sécuri
 articles dédiés :</p>
 
 <ol>
-  <li><a href="https://spoint42.github.io/2025/02/27/prompt2/">L’Injection Directe de Prompt</a></li>
+  <li><a href="/2025/02/27/prompt2/">L’Injection Directe de Prompt</a></li>
   <li><a href="">L’Injection Indirecte ou Contextuelle de Prompt</a></li>
 </ol>
 
@@ -44,7 +44,38 @@ organisations peuvent protéger leurs systèmes contre ces attaques.</p>]]></con
 <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21396">CVE-2025-21396</a> et <a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21415">CVE-2025-21415</a>, affectant Azure AI Face Service et Microsoft Account. Ces failles permettent une élévation des privilèges par contournement de l’authentification, avec un score CVSS de 9.9 pour la seconde. Un exploit  existe pour CVE-2025-21415.</li>
   <li><strong>Vulnérabilités dans les produits Atlassian</strong> :<a href="https://jira.atlassian.com/browse/CONFSERVER-99215">CVE-2024-50379</a>,<a href="https://jira.atlassian.com/browse/CONFSERVER-99216">CVE-2024-56337</a> : Exécution de code arbitraire à distance dans Confluence</li>
   <li><a href="https://cybersecuritynews.com/gitlab-vulnerabilities-bypass-security-controls/"><strong>Vulnerabilités dans Gitlab</strong> </a> : Dans le proxy K8s <a href="https://about.gitlab.com/releases/2025/02/26/patch-release-gitlab-17-9-1-released/">CVE-2025-0475</a></li>
-</ol>]]></content><author><name></name></author><category term="veille" /><summary type="html"><![CDATA[Voici un résumé des quelques vulnérabilités pour cette semaine qui m’ont interpellé :’]]></summary></entry><entry xml:lang="french"><title type="html">🗺️ OWASP ASVS / SOC2 mapping</title><link href="http://localhost:4000/2025/02/25/SOC2-ISO-OWASP/" rel="alternate" type="text/html" title="🗺️ OWASP ASVS / SOC2 mapping" /><published>2025-02-25T11:00:00+01:00</published><updated>2025-02-25T11:00:00+01:00</updated><id>http://localhost:4000/2025/02/25/SOC2-ISO-OWASP</id><content type="html" xml:base="http://localhost:4000/2025/02/25/SOC2-ISO-OWASP/"><![CDATA[<p>Dans le cadre des développements autour d’applications modernes vous avez surement vu passer les références à des normes de 
+</ol>]]></content><author><name></name></author><category term="veille" /><summary type="html"><![CDATA[Voici un résumé des quelques vulnérabilités pour cette semaine qui m’ont interpellé :’]]></summary></entry><entry><title type="html">🤖 Exemple de Pre-Prompting pour IA</title><link href="http://localhost:4000/2025/02/27/preprompt/" rel="alternate" type="text/html" title="🤖 Exemple de Pre-Prompting pour IA" /><published>2025-02-27T02:33:00+01:00</published><updated>2025-02-27T02:33:00+01:00</updated><id>http://localhost:4000/2025/02/27/preprompt</id><content type="html" xml:base="http://localhost:4000/2025/02/27/preprompt/"><![CDATA[<p>Le pre-prompting quesako ? 🤔</p>
+
+<h2 id="-quest-ce-que-le-pre-prompting-">🤔 Qu’est-ce que le Pre-Prompting ?</h2>
+
+<p>Le pre-prompting consiste à fournir des instructions ou des contextes spécifiques à une IA avant 
+qu’elle ne traite une requête principale. Cela permet de guider le comportement de l’IA pour 
+qu’elle réponde de manière plus précise et adaptée à des besoins particuliers. Par exemple, 
+on peut demander à l’IA de répondre en utilisant un ton formel ou de se concentrer sur 
+certains aspects d’une question.</p>
+
+<h2 id="-exemple-concret-en-python">🐍 Exemple Concret en Python</h2>
+
+<p>Voici un exemple concret en Python :</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">generer_reponse</span><span class="p">(</span><span class="n">prompt</span><span class="p">,</span> <span class="n">instructions</span><span class="o">=</span><span class="s">""</span><span class="p">):</span>
+    <span class="c1"># Ajouter des instructions de pre-prompting
+</span>    <span class="n">prompt_complet</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">instructions</span><span class="si">}</span><span class="s">
+
+</span><span class="si">{</span><span class="n">prompt</span><span class="si">}</span><span class="s">"</span>
+    <span class="c1"># Appel à l'IA pour générer une réponse (simulé ici par un simple affichage)
+</span>    <span class="n">reponse</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"Réponse générée pour : </span><span class="si">{</span><span class="n">prompt_complet</span><span class="si">}</span><span class="s">"</span>
+    <span class="k">return</span> <span class="n">reponse</span>
+
+<span class="c1"># Exemple d'utilisation
+</span><span class="n">instructions</span> <span class="o">=</span> <span class="s">"Réponds en utilisant un ton formel et en incluant des références académiques si possible."</span>
+<span class="n">prompt</span> <span class="o">=</span> <span class="s">"Quels sont les avantages de l'intelligence artificielle dans le domaine médical ?"</span>
+<span class="k">print</span><span class="p">(</span><span class="n">generer_reponse</span><span class="p">(</span><span class="n">prompt</span><span class="p">,</span> <span class="n">instructions</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>Dans cet exemple, les instructions de pre-prompting demandent à l’IA de répondre de manière 
+formelle et d’inclure des références académiques, ce qui influence la manière dont la réponse est 
+générée.</p>]]></content><author><name></name></author><category term="IA" /><category term="Programmation" /><category term="pre-prompting" /><category term="python" /><summary type="html"><![CDATA[Le pre-prompting quesako ? 🤔]]></summary></entry><entry xml:lang="french"><title type="html">🗺️ OWASP ASVS / SOC2 mapping</title><link href="http://localhost:4000/2025/02/25/SOC2-ISO-OWASP/" rel="alternate" type="text/html" title="🗺️ OWASP ASVS / SOC2 mapping" /><published>2025-02-25T11:00:00+01:00</published><updated>2025-02-25T11:00:00+01:00</updated><id>http://localhost:4000/2025/02/25/SOC2-ISO-OWASP</id><content type="html" xml:base="http://localhost:4000/2025/02/25/SOC2-ISO-OWASP/"><![CDATA[<p>Dans le cadre des développements autour d’applications modernes vous avez surement vu passer les références à des normes de 
 sécurité telles que <a href="https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html">SOC2</a> (bien 
 que SOC2 ne soit pas une réelle norme de sécurité ) et <a href="https://www.iso.org/fr/isoiec-27001-information-security.html">ISO27000</a>.</p>
 
