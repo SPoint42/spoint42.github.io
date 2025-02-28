@@ -2,8 +2,15 @@
 layout: post
 title: "🤖 Exemple de Pre-Prompting pour IA"
 date: 2025-02-27 01:33:00
-categories: [IA, Programmation]
-tags: [pre-prompting, python]
+categories:
+  - Sécurité
+  - IA
+  - OWASP
+  - Top10 LLM
+  - python
+tags: 
+  - pre-prompting
+  - python
 ---
 
 Le pre-prompting quesako ? 🤔
