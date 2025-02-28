@@ -1,53 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
-<div>
-{% include header.html %}
+---
+layout: page
+---
+
+{{ content }}
+
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {%- if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate -%}
+      {% include posts-paginated.html %}
+      {%- else -%}
+      {% include posts-limit.html %}
+      {%- endif -%}
 </div>
-<div id="home-menu" class="tabs">
-<!--    <button class="tab-button" onclick={{home}}>Home</button>-->
-</div>
-
-<div id="Home" class="tab-content">
-    {% assign posts_by_month = site.posts | group_by_exp:"post", "post.date | date: '%Y-%m'" %}
-    {% for month in posts_by_month %}
-    <h3>{{ month.name | date: "%B %Y" }}</h3>
-    <ul>
-        {% for post in month.items %}
-        <li>
-            <a href="{{ post.url | relative_url }}">{{ post.date | date: '%Y-%m-%d-%H-%M' }} : {{ post.title }}</a>
-            <p>{{ post.excerpt }}</p>
-        </li>
-        {% endfor %}
-    </ul>
-    {% endfor %}
-</div>
-
-
-<div id="About" class="tab-content">
-    <!--    <h2>About</h2>-->
-    <!--    <p>Contenu de l'onglet About.</p>-->
-    <!--    <div id="github-stats">-->
-    <!--        <p>Followers: <span id="github-followers">Loading...</span></p>-->
-    <!--        <p>Following: <span id="github-following">Loading...</span></p>-->
-    <!--        <p>Repositories: <span id="github-repos">Loading...</span></p>-->
-    <!--    </div>-->
-</div>
-
-<div id="Contact" class="tab-content">
-
-</div>
-
-
-
-</body>
-</html>
-
-
-
-
