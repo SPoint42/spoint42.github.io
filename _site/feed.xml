@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-27T13:51:20+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mais Encore</title><subtitle>Security musings</subtitle><entry><title type="html">🔒🤖 OWASP Top10 LLM - Introduction aux Risques de Sécurité des Large Language Models (LLM) : L’Injection de Prompt</title><link href="http://localhost:4000/2025/02/27/prompt/" rel="alternate" type="text/html" title="🔒🤖 OWASP Top10 LLM - Introduction aux Risques de Sécurité des Large Language Models (LLM) : L’Injection de Prompt" /><published>2025-02-27T10:00:00+01:00</published><updated>2025-02-27T10:00:00+01:00</updated><id>http://localhost:4000/2025/02/27/prompt</id><content type="html" xml:base="http://localhost:4000/2025/02/27/prompt/"><![CDATA[<p>Les Large Language Models (LLM) sont de plus en plus intégrés dans diverses applications, allant des chatbots aux 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-27T14:16:31+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mais Encore</title><subtitle>Security musings</subtitle><entry><title type="html">🔒🤖 OWASP Top10 LLM - Introduction aux Risques de Sécurité des Large Language Models (LLM) : L’Injection de Prompt</title><link href="http://localhost:4000/2025/02/27/prompt/" rel="alternate" type="text/html" title="🔒🤖 OWASP Top10 LLM - Introduction aux Risques de Sécurité des Large Language Models (LLM) : L’Injection de Prompt" /><published>2025-02-27T10:00:00+01:00</published><updated>2025-02-27T10:00:00+01:00</updated><id>http://localhost:4000/2025/02/27/prompt</id><content type="html" xml:base="http://localhost:4000/2025/02/27/prompt/"><![CDATA[<p>Les Large Language Models (LLM) sont de plus en plus intégrés dans diverses applications, allant des chatbots aux 
 systèmes de recommandation. Cependant, leur utilisation croissante s’accompagne de risques de sécurité significatifs. 
 L’un des principaux risques identifiés par l’OWASP Top 10 pour les applications LLM est l’<strong>injection de prompt</strong>.</p>
 
@@ -36,7 +36,14 @@ articles dédiés :</p>
 </ol>
 
 <p>En comprenant ces risques et en mettant en œuvre des mesures de sécurité appropriées, les développeurs et les 
-organisations peuvent protéger leurs systèmes contre ces attaques.</p>]]></content><author><name></name></author><category term="Sécurité" /><category term="IA" /><summary type="html"><![CDATA[Les Large Language Models (LLM) sont de plus en plus intégrés dans diverses applications, allant des chatbots aux systèmes de recommandation. Cependant, leur utilisation croissante s’accompagne de risques de sécurité significatifs. L’un des principaux risques identifiés par l’OWASP Top 10 pour les applications LLM est l’injection de prompt.]]></summary></entry><entry><title type="html">Veille rapide</title><link href="http://localhost:4000/2025/02/27/Veille/" rel="alternate" type="text/html" title="Veille rapide" /><published>2025-02-27T08:00:00+01:00</published><updated>2025-02-27T08:00:00+01:00</updated><id>http://localhost:4000/2025/02/27/Veille</id><content type="html" xml:base="http://localhost:4000/2025/02/27/Veille/"><![CDATA[<p>Voici un résumé des quelques vulnérabilités pour cette  semaine qui m’ont interpellé :’</p>
+organisations peuvent protéger leurs systèmes contre ces attaques.</p>]]></content><author><name></name></author><category term="Sécurité" /><category term="IA" /><summary type="html"><![CDATA[Les Large Language Models (LLM) sont de plus en plus intégrés dans diverses applications, allant des chatbots aux systèmes de recommandation. Cependant, leur utilisation croissante s’accompagne de risques de sécurité significatifs. L’un des principaux risques identifiés par l’OWASP Top 10 pour les applications LLM est l’injection de prompt.]]></summary></entry><entry><title type="html">Quick Notes of the day - 27th February 2025</title><link href="http://localhost:4000/2025/02/27/quicknotes/" rel="alternate" type="text/html" title="Quick Notes of the day - 27th February 2025" /><published>2025-02-27T10:00:00+01:00</published><updated>2025-02-27T10:00:00+01:00</updated><id>http://localhost:4000/2025/02/27/quicknotes</id><content type="html" xml:base="http://localhost:4000/2025/02/27/quicknotes/"><![CDATA[<p>Here are the quick notes of the day:</p>
+
+<h2 id="-splunk-query-to-quickly-check-for-anomalous-scanning-activity">📚 Splunk Query to Quickly Check for Anomalous Scanning Activity</h2>
+
+<p>Vérifier rapidement que vous avez des gens qui vous scan de manière anormale et afficher dans splunk sur une carte 
+geographique</p>
+<pre><code class="language-splunk">index=monsuperindex ("RequestPath"="*%00*" OR RequestPath="*/etc/*" OR requestPath="*.exe*") clientip NOT  my.ip.a.moi| iplocation clientip| geostats count
+</code></pre>]]></content><author><name></name></author><category term="QuickNotes" /><category term="QuickNotes" /><summary type="html"><![CDATA[Quick notes of the day - 27th February 2025]]></summary></entry><entry><title type="html">Veille rapide</title><link href="http://localhost:4000/2025/02/27/Veille/" rel="alternate" type="text/html" title="Veille rapide" /><published>2025-02-27T08:00:00+01:00</published><updated>2025-02-27T08:00:00+01:00</updated><id>http://localhost:4000/2025/02/27/Veille</id><content type="html" xml:base="http://localhost:4000/2025/02/27/Veille/"><![CDATA[<p>Voici un résumé des quelques vulnérabilités pour cette  semaine qui m’ont interpellé :’</p>
 
 <ol>
   <li><strong><a href="https://www.bleepingcomputer.com/news/security/vscode-extensions-with-9-million-installs-pulled-over-security-risks/">Extensions VSCode retirées</a></strong> : Microsoft a supprimé deux extensions VSCode populaires en raison de la présence de code malveillant</li>
@@ -58,20 +65,20 @@ certains aspects d’une question.</p>
 
 <p>Voici un exemple concret en Python :</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">generer_reponse</span><span class="p">(</span><span class="n">prompt</span><span class="p">,</span> <span class="n">instructions</span><span class="o">=</span><span class="s">""</span><span class="p">):</span>
-    <span class="c1"># Ajouter des instructions de pre-prompting
-</span>    <span class="n">prompt_complet</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"</span><span class="si">{</span><span class="n">instructions</span><span class="si">}</span><span class="s">
+<pre><code class="language-python">def generer_reponse(prompt, instructions=""):
+    # Ajouter des instructions de pre-prompting
+    prompt_complet = f"{instructions}
 
-</span><span class="si">{</span><span class="n">prompt</span><span class="si">}</span><span class="s">"</span>
-    <span class="c1"># Appel à l'IA pour générer une réponse (simulé ici par un simple affichage)
-</span>    <span class="n">reponse</span> <span class="o">=</span> <span class="sa">f</span><span class="s">"Réponse générée pour : </span><span class="si">{</span><span class="n">prompt_complet</span><span class="si">}</span><span class="s">"</span>
-    <span class="k">return</span> <span class="n">reponse</span>
+{prompt}"
+    # Appel à l'IA pour générer une réponse (simulé ici par un simple affichage)
+    reponse = f"Réponse générée pour : {prompt_complet}"
+    return reponse
 
-<span class="c1"># Exemple d'utilisation
-</span><span class="n">instructions</span> <span class="o">=</span> <span class="s">"Réponds en utilisant un ton formel et en incluant des références académiques si possible."</span>
-<span class="n">prompt</span> <span class="o">=</span> <span class="s">"Quels sont les avantages de l'intelligence artificielle dans le domaine médical ?"</span>
-<span class="k">print</span><span class="p">(</span><span class="n">generer_reponse</span><span class="p">(</span><span class="n">prompt</span><span class="p">,</span> <span class="n">instructions</span><span class="p">))</span>
-</code></pre></div></div>
+# Exemple d'utilisation
+instructions = "Réponds en utilisant un ton formel et en incluant des références académiques si possible."
+prompt = "Quels sont les avantages de l'intelligence artificielle dans le domaine médical ?"
+print(generer_reponse(prompt, instructions))
+</code></pre>
 
 <p>Dans cet exemple, les instructions de pre-prompting demandent à l’IA de répondre de manière 
 formelle et d’inclure des références académiques, ce qui influence la manière dont la réponse est 
