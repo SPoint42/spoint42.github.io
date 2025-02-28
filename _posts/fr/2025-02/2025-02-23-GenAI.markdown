@@ -7,8 +7,18 @@ categories:
   - security 
   - owasp 
   - genAI 
-lang : french
-tags:
+lang : fr-FR
+tags: 
+  - OWASP
+  - GEN AI
+  - Sécurité
+  - Risques
+  - Red Team
+  - LLMSecOps
+  - CISOs
+  - Développeurs
+  - Data Scientists
+  - Experts en Sécurité
 
 ---
 
