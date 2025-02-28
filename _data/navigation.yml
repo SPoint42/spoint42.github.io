@@ -1,0 +1,14 @@
+# Sample site navigation bar links
+
+- title: Home
+  url: /
+- title: Categories
+  url: /categories/
+- title: Tags
+  url: /tags/
+# - title: Recipes
+#   url: /recipes/
+# - title: Search
+#   url: /search/
+- title: Me (Pro)
+  url: https://linkedin.com/in/gioria
