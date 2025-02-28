@@ -10,8 +10,9 @@ Here are the quick notes of the day:
 
 ## 📚 Splunk Query to Quickly Check for Anomalous Scanning Activity
 
-Vérifier rapidement que vous avez des gens qui vous scan de manière anormale et afficher dans splunk sur une carte 
+Vérifier rapidement que vous avez des gens qui vous reniflent de manière anormale et afficher dans splunk sur une carte 
 geographique
+
 ```splunk
 index=monsuperindex ("RequestPath"="*%00*" OR RequestPath="*/etc/*" OR requestPath="*.exe*") clientip NOT  my.ip.a.moi| iplocation clientip| geostats count
 ```
