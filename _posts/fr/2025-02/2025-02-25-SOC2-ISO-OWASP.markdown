@@ -1,9 +1,14 @@
 ---
 title:  "🗺️ OWASP ASVS / SOC2 mapping"
 date:   2025-02-25 11:00:00 +0100
-categories: veille security owasp SOC2
+categories: 
+ - security 
+ - OWASP 
+ - SOC2
+ - OWASP ASVS
 lang : french
 layout: post
+last_modified_at: 2025-02-28
 ---
 
 Dans le cadre des développements autour d'applications modernes vous avez surement vu passer les références à des normes de 
@@ -51,6 +56,6 @@ Cela permet de mieux comprendre comment les bonnes pratiques de sécurité d'OWA
 | **Processing Integrity** | Input Validation (CC9.1)         | Validate inputs to prevent injection attacks and other vulnerabilities.        | [ASVS-5  Input Validation](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x13-V5-Validation-Sanitization-Encoding.md)                            | [Input Validation Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)                  |
 |                    | Version Control (CC9.2)             | Manage changes to code and configurations.                                     | [ASVS-14.1  Build & Deploy](https://github.com/OWASP/ASVS/blob/master/4.0/en/0x22-V14-Config.md)                                                    |                                                                                                                                   |
 | **Privacy**        | Personal Data Protection (CC10.1)   | Protect personal data according to privacy policies.                          |                                                                                                                                                     |                                                                                                                                   |
-|                    | Security Awareness Training (CC10.2)| Provide regular security awareness training to employees.                     |                                                                                                                                                     |                                                                                                                                   |
+|                    | Security Awareness Training (CC10.2)| Provide regular security awareness training to employees.                     |                                                                                                                                                     |      [OWASP Top10](https://www.owasp.org/Top10)                                                                                                                             |
 |                    | Data Minimization (CC10.3)          | Collect and store only necessary personal data.                                |                                                                                                                                                     |                                                                                                                                   |
 |                    | Data Retention and Disposal (CC10.4)| Implement policies for data retention and secure disposal.                    |                                                                                                                                                     |                                                                                                                                   |

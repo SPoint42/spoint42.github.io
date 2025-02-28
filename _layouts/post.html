@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <main id="main" class="main-content" aria-label="Content">
   <article class="h-entry">
     {% include page-image.html %}
@@ -19,7 +20,17 @@ layout: default
         {% include page-author.html %}
         {% include page-categories.html %}
         {% include page-tags.html %}
+
+        {% if page.last_modified_at %}
+        <div style="border: 2px solid #ddd; padding: 15px; border-radius: 5px; margin-top: 10px;">
+          <strong>Dernière modification :</strong> {{ page.last_modified_at }}
+        </div>
+        {% endif %}
+
       </div>
+
+
+
 
       <div class="page-content">
         <div class="e-content">
