@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sécurité de la GEN AI && OWASP ! 💥 Exposition de Données Sensibles 💥 "
-date:   2025-02-24 17:00:00 +0100
+date:   2025-02-24
 categories: veille security owasp genAI 
 lang : french
 ---

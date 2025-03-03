@@ -1,6 +1,6 @@
 ---
 title:  "🗺️ OWASP ASVS / SOC2 mapping"
-date:   2025-02-25 11:00:00 +0100
+date:   2025-02-25
 categories: 
  - security 
  - OWASP 

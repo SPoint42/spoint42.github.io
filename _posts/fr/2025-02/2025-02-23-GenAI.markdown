@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  " ⚙️ Sécurité de la GEN AI && OWASP ! ⚙️ "
-date:   2025-02-23 00:00:00 +0100
+date:   2025-02-23
 categories: 
   - veille 
   - security 
@@ -19,8 +19,8 @@ tags:
   - Développeurs
   - Data Scientists
   - Experts en Sécurité
-
 ---
+
 
 🚀 Ce post est le premier d'une série de plusieurs articles autour des risques et de comment l'OWASP peut aider a protéger des systèmes de Generative AI . Il fait suite a la présentation que j'ai pu effectuer en Décembre 2024 à [Hack-it-n](https://hack-it-n.com/), et va continuer sur différents sujets autour de cette GEN AI
 
