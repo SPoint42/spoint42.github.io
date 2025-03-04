@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "🤖 Exemple de Pre-Prompting pour IA"
-date: 2025-02-27
+title: "Exemple de Pre-Prompting pour IA"
+date: 2025-02-25
 categories:
   - Sécurité
   - IA
