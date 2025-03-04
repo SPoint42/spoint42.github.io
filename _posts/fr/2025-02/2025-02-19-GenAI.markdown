@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sécurité de la GEN AI && OWASP ! "
-date:   2025-02-21
+date:   2025-02-19
 categories: 
   - veille 
   - security 

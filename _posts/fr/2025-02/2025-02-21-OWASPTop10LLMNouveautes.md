@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nouveautés de l'OWASP Top 10 pour LLM 2025"
-date: 2025-03-04
+date: 2025-02-21
 categories: 
   - sécurité 
   - Top10 LLM
