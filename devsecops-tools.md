@@ -18,7 +18,7 @@ This page contains my favorite DevSecOps tools. I will update it regularly.
 ## Static Analysis Tools
 - [Semgrep](https://github.com/returntocorp/semgrep) - Static analysis tool
 - [GoSec](https://github.com/securego/gosec) - Golang security checker
-- 
+
 ## Dynamic Analysis Tools
 - [ZAP Proxy](https://www.zaproxy.org/) - Zed Attack Proxy
 
