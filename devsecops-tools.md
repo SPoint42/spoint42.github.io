@@ -12,8 +12,15 @@ This page contains my favorite DevSecOps tools. I will update it regularly.
 </div>
 {% endif %}
 
+## Vulnerability Management of the DevSecOPS Platform
 - [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) - Vulnerability management tool
-- [ZAP Proxy](https://www.zaproxy.org/) - Zed Attack Proxy
-- [OWASP Dependency Track](https://dependencytrack.org/) - Software Composition Analysis tool
+
+## Static Analysis Tools
 - [Semgrep](https://github.com/returntocorp/semgrep) - Static analysis tool
 - [GoSec](https://github.com/securego/gosec) - Golang security checker
+- 
+## Dynamic Analysis Tools
+- [ZAP Proxy](https://www.zaproxy.org/) - Zed Attack Proxy
+
+## SCA Tools
+- [OWASP Dependency Track](https://dependencytrack.org/) - Software Composition Analysis tool
