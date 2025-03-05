@@ -8,7 +8,6 @@ categories:
  - Top10
  - OWASP 
  - LLM
-hidden: true
 ---
 
 En plus des [mesures précédentes](/2025/03/04/LLM02-2025-Protection/), il est possible de renforcer la sécurité des applications LLM en adoptant des 
