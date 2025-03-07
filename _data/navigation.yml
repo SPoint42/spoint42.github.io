@@ -12,5 +12,11 @@
 #   url: /recipes/
 # - title: Search
 #   url: /search/
+- title: Lectures
+  url: /readings/
+- title: Recettes
+  url: /drink-eats/
+- title: Me (Musing)
+  url: https://linktr.ee/SPoint42
 - title: Me (Pro)
   url: https://linkedin.com/in/gioria
