@@ -7,3 +7,12 @@ layout: page
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order %}
 </div>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WZ6LYGKL1K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WZ6LYGKL1K');
+</script>
