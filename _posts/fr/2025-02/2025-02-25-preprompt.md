@@ -10,7 +10,6 @@ categories:
   - python
 tags: 
   - pre-prompting
-  - python
 ---
 
 Le pre-prompting quesako ? 🤔

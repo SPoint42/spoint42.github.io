@@ -16,17 +16,6 @@ sécurité telles que [SOC2](https://www.aicpa.org/interestareas/frc/assurancead
 que SOC2 ne soit pas une réelle norme de sécurité ) et [ISO27000](https://www.iso.org/fr/isoiec-27001-information-security.html). 
 
 
-<div style="border: 2px solid #ddd; padding: 15px; border-radius: 5px;">
-  💡 <B>SOC 2</B> est une norme de sécurité des informations qui évalue les contrôles de sécurité d'une organisation en fonction de cinq critères :
-<ul>
-<li>sécurité, </li>
-<li>disponibilité, </li>
-<li>intégrité du traitement, </li>
-<li>confidentialité</li>
-<li>vie privée.</li>
-</ul>
- Elle est proposée par <a href="https://www.aicpa.org">l'American Institute of Certified Public Accountants (AICPA)</a>et est souvent utilisée pour évaluer la sécurité des fournisseurs de services cloud et des entreprises technologiques.
-</div>
 
 Ces normes sont de plus en plus demandées par les clients pour garantir la sécurité des données et des systèmes.
  A ce titre, il est intéressant de vous proposer un mapping entre le guide

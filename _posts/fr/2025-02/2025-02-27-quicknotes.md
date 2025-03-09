@@ -4,7 +4,6 @@ date: 2025-02-27
 title: "Quick Notes of the day - 27th February 2025"
 description: "Quick notes of the day - 27th February 2025"
 category: QuickNotes
-tags: [QuickNotes]
 ---
 Here are the quick notes of the day:
 
