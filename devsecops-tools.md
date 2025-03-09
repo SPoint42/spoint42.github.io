@@ -12,7 +12,7 @@ This page contains my favorite DevSecOps tools. I will update it regularly.
 </div>
 {% endif %}
 
-## Vulnerability Management of the DevSecOPS Platform
+## Vulnerability Management 
 - [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) - Vulnerability management tool
 
 ## Static Analysis Tools
@@ -21,6 +21,8 @@ This page contains my favorite DevSecOps tools. I will update it regularly.
 
 ## Dynamic Analysis Tools
 - [ZAP Proxy](https://www.zaproxy.org/) - Zed Attack Proxy
+- [Burp Suite](https://portswigger.net/burp) - Web application security testing tool
+- [FFuf](https://github.com/ffuf/ffuf) - Fast web fuzzer
 
 ## SCA Tools
 - [OWASP Dependency Track](https://dependencytrack.org/) - Software Composition Analysis tool
