@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exemple de Pre-Prompting pour IA"
+title: "Le Pre-Prompting "
 date: 2025-02-25
 categories:
   - Sécurité
@@ -10,6 +10,7 @@ categories:
   - python
 tags: 
   - pre-prompting
+  - IA
 ---
 
 Le pre-prompting quesako ? 🤔

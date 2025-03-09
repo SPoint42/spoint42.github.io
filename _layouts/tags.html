@@ -70,7 +70,14 @@ layout: page
         {% if tag[0] == tag_name %}
           <div class="entries-{{ page.entries_layout | default: 'list' }}">
             {% for entry in tag.last %}
-              {% include entry.html %}
+            {% include entry.html %}
+            <div class="card">
+              <h5 class="card-title">{{ include.title }}</h5>
+              <p class="card-text">{{ include.description }}</p>
+                {% if include.icon %}
+                  <i class="fa {{ include.icon }}"></i>
+                {% endif %}
+            </div>
             {% endfor %}
           </div>
         {% endif %}
@@ -79,6 +86,9 @@ layout: page
     </section>
   {% endfor %}
 {% endfor %}
+
+
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZ6LYGKL1K"></script>
 <script>

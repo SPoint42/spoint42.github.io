@@ -15,7 +15,10 @@ Dans le cadre des développements autour d'applications modernes vous avez surem
 sécurité telles que [SOC2](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html) (bien 
 que SOC2 ne soit pas une réelle norme de sécurité ) et [ISO27000](https://www.iso.org/fr/isoiec-27001-information-security.html). 
 
-
+<div style="border: 2px solid #ddd; padding: 15px; border-radius: 5px;">
+ {% assign post_to_include = site.posts | where: "title", "SOC2" | first %}
+ {{ post_to_include.content }}
+</div>
 
 Ces normes sont de plus en plus demandées par les clients pour garantir la sécurité des données et des systèmes.
  A ce titre, il est intéressant de vous proposer un mapping entre le guide
