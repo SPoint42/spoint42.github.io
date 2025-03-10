@@ -1,0 +1,7 @@
+<div class="card">
+    <h5 class="card-title">{{ include.title }}</h5>
+    <p class="card-text">{{ include.description }}</p>
+    {% if include.icon %}
+    <i class="fa {{ include.icon }}"></i>
+    {% endif %}
+</div>
