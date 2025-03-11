@@ -28,21 +28,36 @@ certains aspects d'une question.
 Voici un exemple concret en Python :
 
 ```python
-def generer_reponse(prompt, instructions=""):
-    # Ajouter des instructions de pre-prompting
-    prompt_complet = f"{instructions}
-
-{prompt}"
-    # Appel à l'IA pour générer une réponse (simulé ici par un simple affichage)
-    reponse = f"Réponse générée pour : {prompt_complet}"
-    return reponse
+    # Fonction pour générer un pre-prompt
+    def generate_pre_prompt(role, task):
+        return f"You are a {role}. Your task is to {task}."
+    
+    # Définition du pre-prompt
+    pre_prompt = generate_pre_prompt("Rookie", "provide a concise and efficient solution")
+    
+    # Définition de la question principale
+    main_prompt = "Write a Python function to calculate the factorial of a given number."
+    
+    # Combinaison du pre-prompt et de la question principale
+    full_prompt = f"{pre_prompt}\n\n{main_prompt}"
+```
 
 # Exemple d'utilisation
-instructions = "Réponds en utilisant un ton formel et en incluant des références académiques si possible."
-prompt = "Quels sont les avantages de l'intelligence artificielle dans le domaine médical ?"
-print(generer_reponse(prompt, instructions))
+
+```python
+	# Génération de la réponse
+	response = openai.Completion.create(
+		engine="text-davinci-003",
+		prompt=full_prompt,
+		max_tokens=100
+	)
+
+	# Affichage de la réponse
+	print(response.choices[0].text)
 ```
+
 
 Dans cet exemple, les instructions de pre-prompting demandent à l'IA de répondre de manière 
 formelle et d'inclure des références académiques, ce qui influence la manière dont la réponse est 
 générée.
+

@@ -3,11 +3,13 @@ layout: post
 date: 2025-03-12
 title: "Les embedding dans le RAG quesako ?"
 categories:
-  - veille
   - CyberSec
   - Top10
   - OWASP
   - LLM
+ - IA
+last_modified_at: 2025-03-12
+
 ---
 
 

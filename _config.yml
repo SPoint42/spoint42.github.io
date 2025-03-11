@@ -61,6 +61,11 @@ liquid:
 permalink: /:categories/:title/
 
 markdown: kramdown
+#highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+      disable: true
 feed:
   path: atom.xml
 
