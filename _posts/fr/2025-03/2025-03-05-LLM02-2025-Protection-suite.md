@@ -3,11 +3,12 @@ layout: post
 date: 2025-03-05
 title: "OWASP Top10 LLM02-2025 - 🛡️️Se protéger en profondeur "
 categories:
- - veille
  - CyberSec
  - Top10
  - OWASP 
  - LLM
+ - IA
+last_modified_at: 2025-03-11
 ---
 
 En plus des [mesures précédentes](/2025/03/04/LLM02-2025-Protection/), il est possible de renforcer la sécurité des applications LLM en adoptant des 
