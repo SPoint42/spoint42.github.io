@@ -3,11 +3,11 @@ layout: post
 date: 2025-03-05
 title: "OWASP Top10 LLM02-2025 - 🛡️️Se protéger en profondeur "
 categories:
- - CyberSec
- - Top10
- - OWASP 
- - LLM
- - IA
+   - CyberSec
+   - Top10
+   - OWASP 
+   - LLM
+   - IA
 last_modified_at: 2025-03-11
 ---
 
