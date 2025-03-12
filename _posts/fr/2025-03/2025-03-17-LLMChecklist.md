@@ -3,7 +3,6 @@ layout: post
 date: 2042-03-17
 title: "LLM Applications Cybersecurity and Governance Checklist v1.1 : une approche pragratique"
 categories:
-  - veille
   - CyberSec
   - Top10
   - OWASP
