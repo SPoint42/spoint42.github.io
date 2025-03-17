@@ -8,6 +8,7 @@ categories:
    - OWASP 
    - LLM
    - IA
+   - Top10 LLM
 last_modified_at: 2025-03-11
 ---
 
