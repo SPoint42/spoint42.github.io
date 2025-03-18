@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2042-03-18
+date: 2025-03-18
 title: "LLM Applications Cybersecurity and Governance Checklist v1.1 : une approche pragmatique"
 categories:
   - CyberSec
