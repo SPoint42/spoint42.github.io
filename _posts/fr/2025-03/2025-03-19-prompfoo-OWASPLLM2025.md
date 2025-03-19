@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-03-19
+date: 2042-03-19
 title: "OWASP Top10 LLM2025 et Promptfoo dans le concret"
 categories:
  - veille
