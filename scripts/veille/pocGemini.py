@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
         rss_urls = (
             ["https://feeds.feedburner.com/TheHackersNews", "The-Hacker-News"],
-            # ["https://www.cert.ssi.gouv.fr/feed/", "CERT-FR"],
+            ["https://www.cert.ssi.gouv.fr/feed/", "CERT-FR"],
             ["https://aws.amazon.com/security/security-bulletins/rss/feed/", "AWS-Security-Bulletins"],
             ["https://feeds.feedburner.com/GoogleOnlineSecurityBlog", "Google-Online-Security-Blog"]
         )
@@ -62,27 +62,27 @@ if __name__ == "__main__":
             except Exception as e:
                 raise (e)
 
-        format_article = f"""
-        ---
-        layout: post
-        title: "Veille automatisée du {today}"
-        date: {today}
-        categories:
-          - veille
-          - vulnérabilités
-          - sécurité
-        ---
-        
-        ⚠️Important Security Alerts (CVSS > 8.5)⚠️
-            Place the titles of articles with a CVSS score above 8.5 here
-        
-        Table of Contents
-            Place the table of contents here
-        
-        Place the Article Title Here
-            Place the article summary here
-            CVE if available + link to the CVE page
-            CVSS score (if available, otherwise display unknown) + EPSS score (if available, otherwise display unknown)
+        format_article = f"""---
+layout: post
+title: "Veille automatisée du {today}"
+date: {today}
+categories:
+  - veille
+  - vulnérabilités
+  - sécurité
+---
+
+# ⚠️Important Security Alerts (CVSS > 7.5)⚠️
+    Place here the titles of articles with a CVSS score above 7.5
+
+## Table of Contents
+    Place the table of contents here
+
+## Place an emoji here and Place the Article Title here
+    Place the article summary here
+* Place an emoji for CVE  + CVE if available + link to the CVE page
+* Place an emoji for CVSS  + CVSS score (if available, otherwise don't add the line ) 
+* Place an emoji for EPSS + EPSS score (if available, otherwise don't add the line ) 
         """
 
         prompt = f"""
@@ -90,13 +90,16 @@ if __name__ == "__main__":
             {rsscontent}.
         You are an expert in cybersecurity and must analyze these files  to generate a cybersecurity monitoring article 
         summarizing the vulnerabilities  contained in these content.
-        When you find content that discusses vulnerabilities, you must create an article 
+        When you find content that discusses vulnerabilities, you must create an article if the content has been 
+        published  {today} or  the last 7 days before {today}
         
-        Once content is processed, you must create a table of contents with the article titles and links to 
+        Once content is processed, you MUST create a table of contents with the article titles and links to 
         these structured elements. The table of contents must be generated based on the article titles and include links 
         to the original articles. 
-         You can include emojis to make the content more appealing.
-         I don't want an explanation for your choices; 
+        All the content must be translated to french.
+        You MUST include emojis to make the content more appealing on social networks.
+         I don't want an explanation for your choices. The content MUST be directly usable in a jekyll post without 
+         modification. You MUST not include any element before the content of the article that describe the content type
         The article must be structured as follows:
         {format_article}
         """
