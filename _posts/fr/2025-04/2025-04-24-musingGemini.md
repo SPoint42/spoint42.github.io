@@ -184,4 +184,7 @@ Reste maintenant a mettre tout cela dans une action github tournant toutes les s
 de mon [POC](https://github.com/SPoint42/spoint42.github.io/blob/main/scripts/veille/pocGemini.py).....
 
 _Oui, j'avoue le code est pas des plus propres...mais c'est un POC et je suis en congés...j'ai d'autres  choses a 
-faire quand meme_ 
+faire quand meme.
+Et n'oubliez pas : restez disruptifs 🚀, curieux 🤔, critiques 💡, mais surtout humbles 🙏 : c’est la clé pour avancer avec
+passion et joie dans tout ce que vous entreprenez 🌟💫.
+_ 
