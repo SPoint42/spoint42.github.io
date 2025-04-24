@@ -40,7 +40,8 @@ if __name__ == "__main__":
             ["https://feeds.feedburner.com/TheHackersNews", "The-Hacker-News"],
             ["https://www.cert.ssi.gouv.fr/feed/", "CERT-FR"],
             ["https://aws.amazon.com/security/security-bulletins/rss/feed/", "AWS-Security-Bulletins"],
-            ["https://feeds.feedburner.com/GoogleOnlineSecurityBlog", "Google-Online-Security-Blog"]
+            ["https://feeds.feedburner.com/GoogleOnlineSecurityBlog", "Google-Online-Security-Blog"],
+
         )
         rsscontent = ""
         today = date.today().strftime("%Y-%m-%d")
