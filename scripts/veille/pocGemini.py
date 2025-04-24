@@ -62,18 +62,9 @@ if __name__ == "__main__":
             except Exception as e:
                 raise (e)
 
-        format_article = f"""---
-layout: post
-title: "Veille automatisée du {today}"
-date: {today}
-categories:
-  - veille
-  - vulnérabilités
-  - sécurité
----
-
+        format_article = f"""
 # ⚠️Important Security Alerts (CVSS > 7.5)⚠️
-    Place here the titles of articles with a CVSS score above 7.5
+    Place an emoji and  the titles of articles with a CVSS score above 7.5 here
 
 ## Table of Contents
     Place the table of contents here
@@ -91,7 +82,7 @@ categories:
         You are an expert in cybersecurity and must analyze these files  to generate a cybersecurity monitoring article 
         summarizing the vulnerabilities  contained in these content.
         When you find content that discusses vulnerabilities, you must create an article if the content has been 
-        published  {today} or  the last 7 days before {today}
+        published or updated at the date :  {today} or  the last 7 days before {today}
         
         Once content is processed, you MUST create a table of contents with the article titles and links to 
         these structured elements. The table of contents must be generated based on the article titles and include links 
@@ -121,6 +112,17 @@ categories:
         markdown_filename = f"{today}/{today}-veille-{modele.replace("models/", "")}.md"
         print(f"Creation du fichier markdown : {markdown_filename}")
         with open(markdown_filename, "w", encoding="utf-8") as md_file:
-            md_file.write(response.text)
+            md_file.write(f"""---
+layout: post
+title: "Veille automatisée du {today} via Gemini {modele}"
+date: {today}
+categories:
+    - veille
+    - vulnérabilités
+    - sécurité
+---
+""")
+            md_file.write(response.text.replace ("```markdown", "").replace("```", ""))
+
     except Exception as e:
         raise (e)
