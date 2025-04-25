@@ -15,6 +15,9 @@ Frameworks and Mitigation Strategies_](https://arxiv.org/abs/2504.08623).
 , met en  avant l'importance de la sécurité dans le développement et le déploiement des systèmes d'IA 
 agentiques, en particulier  lorsqu'ils interagissent avec des outils et des sources de données externes.
 
+Je vous propose ici un résumé du sujet, et ensuite nous reviendrons dans d'autres articles plus en détail sur les 
+mesures de sécurité evoquées dans l'article.
+
 # Qu'est-ce que le MCP ?
 
 Introduit par [Anthropic](https://www.anthropic.com/), le [MCP]({{home}}/2024/04/02/MCP/) offre un moyen standardisé
