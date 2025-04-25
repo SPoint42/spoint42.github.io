@@ -122,6 +122,11 @@ C'est l heure du Fiadone:
 Le Fiadone est un dessert corse à base de brocciu, un fromage frais de brebis, et de citron. Il est souvent servi lors des
 occasions spéciales et est apprécié pour sa texture légère et crémeuse.
 
+
+**Et n'oubliez pas : restez disruptifs 🚀, curieux 🤔, critiques 💡, mais surtout humbles 🙏 : c’est la clé pour avancer avec
+passion et joie dans tout ce que vous entreprenez 🌟💫.**
+
+
 ### Reférences : 
 
 - [OWASP GENAI](https://genai.owasp.org/)
