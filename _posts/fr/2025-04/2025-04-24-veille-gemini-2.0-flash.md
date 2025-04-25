@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Veille automatisée du 2025-04-24 via Gemini gemini-2.0-flash"
+title: "<I>Veille automatisée du 2025-04-24 via Gemini gemini-2.0-flash</I"
 date: 2025-04-24
 categories:
     - veille

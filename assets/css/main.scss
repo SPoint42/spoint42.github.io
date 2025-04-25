@@ -6,3 +6,49 @@ sitemap: false
 @charset "utf-8";
 
 @import "so-simple";
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /*grid-template-rows: 1fr 1fr;*/
+  gap: 20px;
+  row-gap: 0;
+  grid-template-rows: auto auto;
+  align-items: flex-start;
+}
+.col-gauche {
+  grid-row: 1 / span 2; /* occupe les deux lignes à gauche */
+  background: #f1f1f1;
+  padding: 20px;
+  grid-row: 1 / span 2;
+}
+.col-droite {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  /* Pas de height : la hauteur s'adapte à ses enfants */
+}
+
+.element-haut {
+  grid-column: 2;
+  grid-row: 1;
+  background: #ffe5e5;
+
+}
+
+.element-bas {
+  grid-column: 2;
+  grid-row: 2;
+  background: #e0eaff;
+}
+
+.category-cloud a {
+  text-decoration: none;
+  border: 2px dotted #000;
+  color: #333;
+  transition: color 0.2s;
+}
+.category-cloud a:hover {
+  color: #007acc;
+}

@@ -2,35 +2,103 @@
 layout: page
 ---
 
-
-<div class="entries-{{ page.entries_layout | default: 'list' }}">
-      {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-      {% for year in posts_by_year %}
+<div class="grid-container">
+    <div class="col-gauche">
+        <!-- Content for the left column -->
+        <div class="entries-{{ page.entries_layout | default: 'list' }}">
+            {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+            {% for year in posts_by_year %}
             <h2>{{ year.name }}</h2>
             {% assign posts_by_month = year.items | group_by_exp: "post", "post.date | date: '%B'" %}
             {% for month in posts_by_month %}
-                  <h3>{{ month.name }}</h3>
-                  {% assign posts_by_week = month.items | group_by_exp: "post", "post.date | date: '%U'" %}
-                        {% for week in posts_by_week %}
-                              <h4>Week {{ week.name }}</h4>
-                              <ul>
-                                    {% for post in week.items %}
-                                    <li>
-                                          <a href="{{ post.url }}">{{ post.title }}</a>
-                                          <span>{{ post.date | date: "%B %d, %Y" }}</span>
-                                    </li>
-                                    {% endfor %}
-                              </ul>
-                          {% endfor %}
+            <h3>{{ month.name }}</h3>
+            {% assign posts_by_week = month.items | group_by_exp: "post", "post.date | date: '%U'" %}
+            {% for week in posts_by_week %}
+            <h4>Week {{ week.name }}</h4>
+            <ul>
+                {% for post in week.items %}
+                {% unless post.categories contains "veille" %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <span>{{ post.date | date: "%B %d, %Y" }}</span>
+                </li>
+                {% endunless %}
+                {% endfor %}
+            </ul>
             {% endfor %}
-      {% endfor %}
+            {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="col-droite">
+    <div class="element-haut">
+        <!-- Content for the right column -->
+        <div class="entries-{{ page.entries_layout | default: 'list' }}">
+            <center><h2>⚠️Veille Sécurité⚠️</h2></center>
+            {% assign now = 'now' | date: '%s' %}
+            {% assign one_week_seconds = 604800 %}
+            {% assign posts_de_veille = site.posts | where_exp: "post", "post.categories.veille" %}
+            <ul>
+                {% for post in site.categories.veille %}
+                {% assign post_time = post.date | date: '%s' %}
+                {% assign diff = now | minus: post_time %}
+                {% if diff <= one_week_seconds %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="element-bas">
+        {% assign min_font = 12 %}
+        {% assign max_font = 32 %}
+        {% assign max_count = 0 %}
+        {% assign min_count = 9999 %}
+        {% for category in site.categories %}
+        {% assign count = category[1].size %}
+        {% if count > max_count %}
+        {% assign max_count = count %}
+        {% endif %}
+        {% if count < min_count %}
+        {% assign min_count = count %}
+        {% endif %}
+        {% endfor %}
+
+        <div class="category-cloud">
+        {% for category in site.categories %}
+        {% assign count = category[1].size %}
+        {% if max_count == min_count %}
+        {% assign font_size = min_font %}
+        {% else %}
+        {% assign count_offset = count | minus: min_count %}
+        {% assign font_range = max_font | minus: min_font %}
+        {% assign count_range = max_count | minus: min_count %}
+        {% if count_range == 0 %}
+        {% assign font_size = min_font %}
+        {% else %}
+        {% assign weight = count_offset | times: font_range | divided_by: count_range %}
+        {% assign font_size = min_font | plus: weight %}
+        {% endif %}
+        {% endif %}
+        <a href="/categories/#{{ category[0] | slugify }}"
+           style="font-size:{{ font_size }}px; margin:0 5px;">
+            {{ category[0] }}
+        </a>
+        {% endfor %}
+            </div>
+    </div>
+    </div>
 </div>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZ6LYGKL1K"></script>
 <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'G-WZ6LYGKL1K');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-WZ6LYGKL1K');
 </script>
