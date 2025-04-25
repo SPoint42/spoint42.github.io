@@ -176,9 +176,14 @@ categories:
             md_file.write(response.text.replace ("```markdown", "").replace("```", ""))
 ```
 Et cela donne cela: 
-* [avec le modele 2.0-flash]({{home}}/2025/04/24/veille-gemini-2.0-flash/) 
-* [avec le modele 2.5-flash-preview-04-17]({{home}}/2025/04/24/veille-gemini-2.5-flash-preview-04-17/)
-* [avec le modele gemini-2.5-pro-exp-03-25]({{home}}/2025/04/24/veille-gemini-2.5-pro-exp-03-25/)
+* Pour le 24 Avril 2025 : 
+  * [avec le modele 2.0-flash]({{home}}/2025/04/24/veille-gemini-2.0-flash/) 
+  * [avec le modele 2.5-flash-preview-04-17]({{home}}/2025/04/24/veille-gemini-2.5-flash-preview-04-17/)
+  * [avec le modele gemini-2.5-pro-exp-03-25]({{home}}/2025/04/24/veille-gemini-2.5-pro-exp-03-25/)
+* Pour le 25 Avril 2025 : 
+  * [avec le modele 2.0-flash]({{home}}/2025/04/25/veille-gemini-2.0-flash/)
+  * [avec le modele 2.5-flash-preview-04-17]({{home}}/2025/04/25/veille-gemini-2.5-flash-preview-04-17/)
+  * [avec le modele gemini-2.5-pro-exp-03-25]({{home}}/2025/04/25/veille-gemini-2.5-pro-exp-03-25/)
 
 Reste maintenant a mettre tout cela dans une action github tournant toutes les semaines pour voir la pertinence globale
 de mon [POC](https://github.com/SPoint42/spoint42.github.io/blob/main/scripts/veille/pocGemini.py).....
