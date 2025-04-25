@@ -115,7 +115,15 @@ La mise en œuvre de ce cadre nécessite une planification minutieuse :
   continuellement révisés et mis à jour.
 
 
+C'est l heure du Fiadone:
+<UL>
+<img src="{{home}}/assets/img/PXL_20250425_154741894.jpg" alt="Fiadone" width="50%">
+</UL>
+Le Fiadone est un dessert corse à base de brocciu, un fromage frais de brebis, et de citron. Il est souvent servi lors des
+occasions spéciales et est apprécié pour sa texture légère et crémeuse.
+
 ### Reférences : 
 
 - [OWASP GENAI](https://genai.owasp.org/)
 - [Le document complet de recherche sur Arxiv](https://arxiv.org/abs/2504.08623)
+- [Recette du Fiadone](https://www.recettes-corses.fr/recipe-items/fiadone-corse-au-citron)
