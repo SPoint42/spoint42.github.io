@@ -20,6 +20,11 @@ layout: default
         {% include page-author.html %}
         {% include page-categories.html %}
         {% include page-tags.html %}
+        <div style="border: 2px solid #007BFF; padding: 10px; border-radius: 5px;">
+          <h2 style="color: #007BFF;">🔍 <a href="{{home}}/licence">Licence d'Utilisation </a>🔍</h2>
+          <p>Sauf mention contraire, le contenu de ce blog est sous licence <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>.</p>
+          <p style="text-align: right;"><strong>© 2025 à 2042 Sébastien Gioria. Tous droits réservés.</strong></p>
+        </div>
 
         {% if page.last_modified_at %}
         <div style="border: 2px solid #ddd; padding: 15px; border-radius: 5px; margin-top: 10px;">
@@ -31,11 +36,11 @@ layout: default
 
 
 
-
       <div class="page-content">
         <div class="e-content">
           {{ content }}
         </div>
+
 
         {% if page.share %}
           {% include social-share.html %}
@@ -48,6 +53,7 @@ layout: default
         {% include page-pagination.html %}
       </div>
     </div>
+
   </article>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZ6LYGKL1K"></script>
