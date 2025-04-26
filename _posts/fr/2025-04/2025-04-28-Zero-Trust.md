@@ -75,27 +75,55 @@ tandis que
 l'[**ASVS (Application Security  Verification Standard)**](https://owasp.org/www-project-application-security-verification-standard/) 
 propose une liste de contrôles utilisables comme **Points de contrôles DevGenAISecOps**. 
 
-Voici comment appliquer les principes Zero Trust en s'appuyant sur ces ressources :
+## Menaces STRIDE adressées :
 
-## [Gestion Stricte des Identités]({{home}}/2024/04/27/Zero-Trust-1) 🔑:
+Voici un mapping des différents principes et des elements STRIDE associés :
 
+|--------------|----------|-----------|-------------|------------------------|-------------------|------------------------|
+| **Principe** | Spoofing | Tampering | Repudiation | Information Disclosure | Denial of Service | Elevation of Privilege |
+|--------------|----------|-----------|-------------|------------------------|-------------------|------------------------|
+|[Gestion Stricte des Identités]({{home}}/2025/04/29/Zero-Trust-1)|<span style="color: red; font-weight: bold; font-size: 150%;">S</span>|||<span style="color: red; font-weight: bold; font-size: 150%;">I</span>||<span style="color: red; font-weight: bold; font-size: 150%;">E</span>|
+|Contrôle d'Accès au Moindre Privilège||<span style="color: red; font-weight: bold; font-size: 150%;">T</span>||<span style="color: red; font-weight: bold; font-size: 150%;">I</span>||<span style="color: red; font-weight: bold; font-size: 150%;">E</span>|
+|Validation de la Conformité des Points d'Accès|<span style="color: red; font-weight: bold; font-size: 150%;">S</span>|<span style="color: red; font-weight: bold; font-size: 150%;">T</span>||<span style="color: red; font-weight: bold; font-size: 150%;">I</span>||<span style="color: red; font-weight: bold; font-size: 150%;">E</span>|
+|Micro-segmentation du Réseau||<span style="color: red; font-weight: bold; font-size: 150%;">T</span>||<span style="color: red; font-weight: bold; font-size: 150%;">I</span>|<span style="color: red; font-weight: bold; font-size: 150%;">D</span>|<span style="color: red; font-weight: bold; font-size: 150%;">E</span>|
+|Sécurité des Données||<span style="color: red; font-weight: bold; font-size: 150%;">T</span>||<span style="color:red; font-weight: bold; font-size: 150%;">I</span>||||
+|Surveillance et Détection Continues|<span style="color: red; font-weight: bold; font-size: 150%;">S</span>|<span style="color: red; font-weight: bold; font-size: 150%;">T</span>|<span style="color: red; font-weight: bold; font-size: 150%;">R</span>|<span style="color: red; font-weight: bold; font-size: 150%;">I</span>|<span style="color: red; font-weight: bold; font-size: 150%;">D</span>|<span style="color: red; font-weight: bold; font-size: 150%;">E</span>|
+|Validation et Filtrage des Entrées/Sorties||<span style="color: red; font-weight: bold; font-size: 150%;">T</span>||<span style="color: red; font-weight: bold; font-size: 150%;">I</span>||<span style="color: red; font-weight: bold; font-size: 150%;">E</span>|
+|--------------|----------|-----------|-------------|------------------------|-------------------|------------------------|
+
+
+## [Gestion Stricte des Identités]({{home}}/2025/04/29/Zero-Trust-1) 🔑:
 💡 Pour s'assurer que seuls les utilisateurs et services légitimes peuvent accéder à l' application GenAI, à ses 
 modèles et aux données potentiellement sensibles qu'elle traite. C'est la base pour savoir qui interagit avec le système.
 
 ## Contrôle d'Accès au Moindre Privilège :
+💡 Limite l'impact potentiel en cas de compromission d'un compte ou d'une tentative d'abus par une entité légitime. 
+Empêche
+l'accès inutile aux fonctions sensibles de la GenAI (ex: administration, accès aux logs complets) ou aux données
+sous-jacentes.
 
 ## Validation de la Conformité des Points d'Accès :
+💡 Réduit le risque que des appareils compromis ou non sécurisés soient utilisés pour attaquer l'application GenAI, voler
+des données d'authentification, injecter des malwares ou exfiltrer des informations sensibles traitées par l'IA.
+
 
 ## Micro-segmentation du Réseau :
-
+💡 Isoler les composants pour limiter l'impact d'une compromission, en sécurisant notamment les interfaces (API)
+entre les segments.
 
 ## Sécurité des Données :
+💡 Protège la confidentialité et l'intégrité des informations, même si elles sont interceptées ou si le stockage 
+est compromis.
 
 ## Surveillance et Détection Continues :
+💡 Permet de détecter les tentatives d'attaque (ex: force brute, [injection]({{home}}/2025/02/26/prompt) de prompt, 
+exfiltration de données), 
+de comprendre comment une brèche s'est produite, et de réagir rapidement. 
 
 ## Validation et Filtrage des Entrées/Sorties 
-
-
+💡Empêche les attaques par [injection]({{home}}/2025/02/26/prompt) (spécifiquement l'[injection]({{home}}/2025/02/26/prompt) de prompt dans le 
+contexte GenAI) qui visent à 
+manipuler le modèle, contourner les règles, exfiltrer des données ou exécuter des actions non désirées.
 
 **❗ Note Importante:** L'OWASP ASVS est un standard évolutif. Les liens ci-dessus pointent vers les chapitres de la
 version 4.0.3 sur GitHub. Assurez-vous de toujours consulter
