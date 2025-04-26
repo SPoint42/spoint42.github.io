@@ -69,11 +69,13 @@ pertinent :
 # 🛠️ Appliquer les Principes du Zero Trust à la GenAI : Comment s'y prendre ?
 
 Intégrer une approche Zero Trust pour sécuriser une application GenAI nécessite une stratégie multidimensionnelle.
-L'OWASP (Open Web Application Security Project) fournit d'excellentes ressources techniques : les **Cheat Sheets**
-offrent des guides pratiques, tandis que l'[**ASVS (Application Security Verification Standard)
-**](https://owasp.org/www-project-application-security-verification-standard/) propose une liste de contrôles
-utilisables comme **Points de contrôles DevSecOps**. Voici comment appliquer les principes Zero Trust en s'appuyant sur
-ces ressources :
+L'OWASP (Open Web Application Security Project) fournit d'excellentes ressources techniques : 
+les [**Cheat Sheets**](https://cheatsheetseries.owasp.org/) offrent des guides pratiques, 
+tandis que 
+l'[**ASVS (Application Security  Verification Standard)**](https://owasp.org/www-project-application-security-verification-standard/) 
+propose une liste de contrôles utilisables comme **Points de contrôles DevGenAISecOps**. 
+
+Voici comment appliquer les principes Zero Trust en s'appuyant sur ces ressources :
 
 ## [Gestion Stricte des Identités]({{home}}/2024/04/27/Zero-Trust-1) 🔑:
 
