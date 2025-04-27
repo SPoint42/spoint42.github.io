@@ -77,7 +77,7 @@ propose une liste de contrôles utilisables comme **Points de contrôles DevGenA
 
 ## Menaces STRIDE adressées :
 
-Voici un mapping des différents principes et des elements STRIDE associés :
+Voici un mapping des différents principes et des elements [STRIDE]({{home}}/2025/04/26/STRIDE/) associés :
 
 |--------------|----------|-----------|-------------|------------------------|-------------------|------------------------|
 | **Principe** | Spoofing | Tampering | Repudiation | Information Disclosure | Denial of Service | Elevation of Privilege |
