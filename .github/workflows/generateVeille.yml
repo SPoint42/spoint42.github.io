@@ -22,12 +22,12 @@ jobs:
         run: |
             python -m venv venv
             source venv/bin/activate
-            pip install -r veille/scripts/requirements.txt
+            pip install -r scripts/veille/requirements.txt
             
       - name: Run shell script
         run: |
             source venv/bin/activate
-            chmod +x veille/scripts/generateVeille.sh
-            veille/scripts/generateVeille.sh
+            chmod +x scripts/veille/generateVeille.sh
+            scripts/veille/generateVeille.sh
             
       
