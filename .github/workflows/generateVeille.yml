@@ -2,7 +2,7 @@ name: generateVeille
 
 on:
 #  schedule:
- #   - cron: '0 * * * *'  # Exécute le workflow toutes les heures
+ #   - cron: '42 */6 * * *'  # Exécute le workflow toutes les heures
   workflow_dispatch:  # Permet de lancer le workflow manuellement
 
 jobs:
@@ -25,9 +25,13 @@ jobs:
             pip install -r scripts/veille/requirements.txt
             
       - name: Run shell script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
             source venv/bin/activate
             chmod +x scripts/veille/generateVeille.sh
             scripts/veille/generateVeille.sh
+            ls -la
+          
             
       
