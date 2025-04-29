@@ -1,0 +1,33 @@
+name: generateVeille
+
+on:
+#  schedule:
+ #   - cron: '0 * * * *'  # Exécute le workflow toutes les heures
+  workflow_dispatch:  # Permet de lancer le workflow manuellement
+
+jobs:
+  checkout:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v2
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: |
+            python -m venv venv
+            source venv/bin/activate
+            pip install -r veille/scripts/requirements.txt
+            
+      - name: Run shell script
+        run: |
+            source venv/bin/activate
+            chmod +x veille/scripts/generateVeille.sh
+            veille/scripts/generateVeille.sh
+            
+      
