@@ -132,8 +132,7 @@ if __name__ == "__main__":
                 markdown_filename = f"{today}/{today}-veille-{url[1]}-{modele.replace("models/", "")}.md"
                 print(f"Creation du fichier markdown : {markdown_filename}")
                 with open(markdown_filename, "w", encoding="utf-8") as md_file:
-                    md_file.write(f"""
----
+                    md_file.write(f"""---
 layout: post
 title: "Veille automatisée du {today} pour {url[1]} via Gemini {modele}"
 date: {today}
