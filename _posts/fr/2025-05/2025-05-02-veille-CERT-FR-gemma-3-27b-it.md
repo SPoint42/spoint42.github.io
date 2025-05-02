@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Veille automatisée du 2025-05-02 pour CERT-FR via Gemini gemma-3-27b-it"

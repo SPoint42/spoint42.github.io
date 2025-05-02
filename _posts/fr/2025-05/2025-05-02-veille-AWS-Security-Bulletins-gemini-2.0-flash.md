@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Veille automatisée du 2025-05-02 pour AWS-Security-Bulletins via Gemini gemini-2.0-flash"
