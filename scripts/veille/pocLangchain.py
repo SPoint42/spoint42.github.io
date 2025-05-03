@@ -35,7 +35,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generation de veille via un model")
     parser.add_argument("-l", "--list", help="lister les modeles disponibles.")
     parser.add_argument("-m", "--model", help="model a utiliser.")
-    parser.add_argument("-o", "--output", help="repertoire de sortie.")
 
     args = parser.parse_args()
 
@@ -129,10 +128,8 @@ if __name__ == "__main__":
 
                 response = client.models.generate_content(model=modele,
                                                           contents=[prompt])
-                if (args.output) :
-                    markdown_filename = f"{args.output}/{today}-veille-{url[1]}-{modele.replace("models/", "")}.md"
-                else :
-                    markdown_filename = f"{today}/{today}-veille-{url[1]}-{modele.replace("models/", "")}.md"
+
+                markdown_filename = f"{today}/{today}-veille-{url[1]}-{modele.replace("models/", "")}.md"
                 print(f"Creation du fichier markdown : {markdown_filename}")
                 with open(markdown_filename, "w", encoding="utf-8") as md_file:
                     md_file.write(f"""---
