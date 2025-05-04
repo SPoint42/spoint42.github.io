@@ -9,8 +9,4 @@ categories:
     - AWS-Security-Bulletins
     - gemini-2.5-pro-exp-03-25
 ---
-# ⚠️Alertes de Sécurité Importantes (CVSS > 7.5)⚠️
-*(Aucune alerte avec CVSS > 7.5 dans la période sélectionnée)*
-
-## Table des Matières
-*(Aucun article ne correspond aux critères de date du 28 avril 2025 au 3 mai 2025)*
+Aucune alerte de sécurité ne correspond à la période spécifiée (du 28 avril 2025 au 3 mai 2025) dans le flux fourni.

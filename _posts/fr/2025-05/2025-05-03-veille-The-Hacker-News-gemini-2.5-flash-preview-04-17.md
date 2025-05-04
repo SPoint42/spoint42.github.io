@@ -10,192 +10,104 @@ categories:
     - gemini-2.5-flash-preview-04-17
 ---
 # ⚠️Alertes de Sécurité Importantes (CVSS > 7.5)⚠️
+Des Hackers Exploitent des Failles Critiques de Craft CMS ; Des Centaines de Serveurs Probablement Compromis
+Commvault Confirme l'Exploitation par des Hackers de la CVE-2025-3928 en Tant que Jour Zéro dans une Brèche Azure
+La CISA Ajoute des Failles Broadcom et Commvault Activement Exploitées à sa Base de Données KEV
 
-Voici les titres des alertes de sécurité les plus critiques de la semaine, signalant des vulnérabilités activement exploitées ou des menaces à fort impact. Notez que les scores CVSS spécifiques ne sont pas fournis dans le flux RSS, mais ces articles sont considérés comme hautement prioritaires en raison des termes "Critique", "Exploité", "Zero-Day", "Ransomware", "Malware Nation-State", "Brèche", "CISA KEV".
+## Table des Matières
+🔗 [Des Modules Go Malveillants Déploient des Malwares Linux Effaçant les Disques lors d'une Attaque Avancée sur la Chaîne d'Approvisionnement](https://thehackernews.com/2025/05/malicious-go-modules-deliver-disk.html)
+🔗 [Des Hackers Iraniens Maintiennent un Accès de 2 Ans aux Infrastructures Critiques du Moyen-Orient via des Failles VPN et des Malwares](https://thehackernews.com/2025/05/iranian-hackers-maintain-2-year-access.html)
+🔗 [Les États-Unis Inculpent un Hacker Yéménite Responsable du Ransomware Black Kingdom C当时ant 1 500 Systèmes](https://thehackernews.com/2025/05/us-charges-yemeni-hacker-behind-black.html)
+🔗 [MintsLoader Déploie GhostWeaver via Phishing et ClickFix — Utilise DGA, TLS pour des Attaques Furtives](https://thehackernews.com/2025/05/mintsloader-drops-ghostweaver-via.html)
+🔗 [Un Faux Plugin de Sécurité sur WordPress Permet un Accès Admin à Distance aux Attaquants](https://thehackernews.com/2025/05/fake-security-plugin-on-wordpress.html)
+🔗 [L'IA Claude Exploité pour Opérer Plus de 100 Fausses Personnalités Politiques dans une Campagne d'Influence Mondiale](https://thehackernews.com/2025/05/claude-ai-exploited-to-operate-100-fake.html)
+🔗 [Les Malwares DarkWatchman et Sheriff Frappent la Russie et l'Ukraine avec des Tactiques Furtives et de Niveau National](https://thehackernews.com/2025/05/darkwatchman-sheriff-malware-hit-russia.html)
+🔗 [Commvault Confirme l'Exploitation par des Hackers de la CVE-2025-3928 en Tant que Jour Zéro dans une Brèche Azure](https://thehackernews.com/2025/05/commvault-confirms-hackers-exploited.html)
+🔗 [SonicWall Confirme l'Exploitation Active de Failles Affectant Plusieurs Modèles d'Appareils](https://thehackernews.com/2025/05/sonicwall-confirms-active-exploitation.html)
+🔗 [Des Hackers Chinois Abusent de l'IPv6 SLAAC pour des Attaques AitM via l'Outil de Mouvement Latéral Spellbinder](https://thehackernews.com/2025/04/chinese-hackers-abuse-ipv6-slaac-for.html)
+🔗 [Nebulous Mantis Cible des Entités Liées à l'OTAN avec des Attaques de Malware Multi-Étapes](https://thehackernews.com/2025/04/nebulous-mantis-targets-nato-linked.html)
+🔗 [SentinelOne Découvre une Campagne d'Espionnage Chinoise C当时ant son Infrastructure et ses Clients](https://thehackernews.com/2025/04/sentinelone-uncovers-chinese-espionage.html)
+🔗 [Malware Attack Targets World Uyghur Congress Leaders via Trojanized UyghurEdit++ Tool](https://thehackernews.com/2025/04/malware-attack-targets-world-uyghur.html)
+🔗 [La CISA Ajoute des Failles Broadcom et Commvault Activement Exploitées à sa Base de Données KEV](https://thehackernews.com/2025/04/cisa-adds-actively-exploited-broadcom.html)
+🔗 [Google Signale 75 Jours Zéro Exploités en 2024 — 44 % C当时aient les Produits de Sécurité d'Entreprise](https://thehackernews.com/2025/04/google-reports-75-zero-days-exploited.html)
+🔗 [Earth Kurma Cible l'Asie du Sud-Est avec des Rootkits et des Outils de Vol de Données Basés sur le Cloud](https://thehackernews.com/2025/04/earth-kurma-targets-southeast-asia-with.html)
+🔗 [Utilisateurs WooCommerce C当时的 par une Campagne de Phishing de Faux Patchs Déployant des Portes Dérobées sur les Sites](https://thehackernews.com/2025/04/woocommerce-users-targeted-by-fake-patch.html)
+🔗 [Des Hackers Exploitent des Failles Critiques de Craft CMS ; Des Centaines de Serveurs Probablement Compromis](https://thehackernews.com/2025/04/hackers-exploit-critical-craft-cms.html)
+🔗 [Storm-1977 Frappe les Clouds Éducatifs avec AzureChecker, Déploie Plus de 200 Conteneurs de Crypto-Minage](https://thehackernews.com/2025/04/storm-1977-hits-education-clouds-with.html)
 
-*   🚨 U.S. Charges Yemeni Hacker Behind Black Kingdom Ransomware Targeting 1,500 Systems
-*   🚨 Fake Security Plugin on WordPress Enables Remote Admin Access for Attackers
-*   🚨 MintsLoader Drops GhostWeaver via Phishing, ClickFix — Uses DGA, TLS for Stealth Attacks
-*   🚨 DarkWatchman, Sheriff Malware Hit Russia and Ukraine with Stealth and Nation-Grade Tactics
-*   🚨 Commvault Confirms Hackers Exploited CVE-2025-3928 as Zero-Day in Azure Breach
-*   🚨 SonicWall Confirms Active Exploitation of Flaws Affecting Multiple Appliance Models
-*   🚨 Chinese Hackers Abuse IPv6 SLAAC for AitM Attacks via Spellbinder Lateral Movement Tool
-*   🚨 Nebulous Mantis Targets NATO-Linked Entities with Multi-Stage Malware Attacks
-*   🚨 SentinelOne Uncovers Chinese Espionage Campaign Targeting Its Infrastructure and Clients
-*   🚨 Malware Attack Targets World Uyghur Congress Leaders via Trojanized UyghurEdit++ Tool
-*   🚨 CISA Adds Actively Exploited Broadcom and Commvault Flaws to KEV Database
-*   🚨 Earth Kurma Targets Southeast Asia With Rootkits and Cloud-Based Data Theft Tools
-*   🚨 WooCommerce Users Targeted by Fake Patch Phishing Campaign Deploying Site Backdoors
-*   🚨 Hackers Exploit Critical Craft CMS Flaws; Hundreds of Servers Likely Compromised
-*   🚨 Storm-1977 Hits Education Clouds with AzureChecker, Deploys 200+ Crypto Mining Containers
+## 🚨 Des Modules Go Malveillants Déploient des Malwares Linux Effaçant les Disques lors d'une Attaque Avancée sur la Chaîne d'Approvisionnement
+Les chercheurs en cybersécurité ont découvert trois modules Go malveillants qui incluent du code obfusqué pour livrer un malware Linux capable d'effacer les disques, signalant une attaque sophistiquée sur la chaîne d'approvisionnement.
+📅 Sat, 03 May 2025 20:01:00 +0530
 
-## Table of Contents
+## 🔒 Des Hackers Iraniens Maintiennent un Accès de 2 Ans aux Infrastructures Critiques du Moyen-Orient via des Failles VPN et des Malwares
+Un groupe de menace parrainé par l'État iranien a été attribué à une intrusion cybernétique de longue durée visant les Infrastructures Critiques (CNI) au Moyen-Orient, utilisant des failles VPN et des malwares.
+📅 Sat, 03 May 2025 15:03:00 +0530
 
-*   [U.S. Charges Yemeni Hacker Behind Black Kingdom Ransomware Targeting 1,500 Systems](https://thehackernews.com/2025/05/us-charges-yemeni-hacker-behind-black.html)
-*   [TikTok Slammed With €530 Million GDPR Fine for Sending E.U. Data to China](https://thehackernews.com/2025/05/tiktok-slammed-with-530-million-gdpr.html)
-*   [How to Automate CVE and Vulnerability Advisory Response with Tines](https://thehackernews.com/2025/05/how-to-automate-cve-and-vulnerability.html)
-*   [MintsLoader Drops GhostWeaver via Phishing, ClickFix — Uses DGA, TLS for Stealth Attacks](https://thehackernews.com/2025/05/mintsloader-drops-ghostweaver-via.html)
-*   [Microsoft Sets Passkeys Default for New Accounts; 15 Billion Users Gain Passwordless Support](https://thehackernews.com/2025/05/microsoft-sets-passkeys-default-for-new.html)
-*   [Fake Security Plugin on WordPress Enables Remote Admin Access for Attackers](https://thehackernews.com/2025/05/fake-security-plugin-on-wordpress.html)
-*   [Why top SOC teams are shifting to Network Detection and Response](https://thehackernews.com/2025/05/why-top-soc-teams-are-shifting-to.html)
-*   [Claude AI Exploited to Operate 100+ Fake Political Personas in Global Influence Campaign](https://thehackernews.com/2025/05/claude-ai-exploited-to-operate-100-fake.html)
-*   [New Research Reveals: 95% of AppSec Fixes Don’t Reduce Risk](https://thehackernews.com/2025/05/new-research-reveals-95-of-appsec-fixes.html)
-*   [DarkWatchman, Sheriff Malware Hit Russia and Ukraine with Stealth and Nation-Grade Tactics](https://thehackernews.com/2025/05/darkwatchman-sheriff-malware-hit-russia.html)
-*   [Commvault Confirms Hackers Exploited CVE-2025-3928 as Zero-Day in Azure Breach](https://thehackernews.com/2025/05/commvault-confirms-hackers-exploited.html)
-*   [SonicWall Confirms Active Exploitation of Flaws Affecting Multiple Appliance Models](https://thehackernews.com/2025/05/sonicwall-confirms-active-exploitation.html)
-*   [Researchers Demonstrate How MCP Prompt Injection Can Be Used for Both Attack and Defense](https://thehackernews.com/2025/04/experts-uncover-critical-mcp-and-a2a.html)
-*   [[Free Webinar] Guide to Securing Your Entire Identity Lifecycle Against AI-Powered Threats](https://thehackernews.com/2025/04/free-webinar-guide-to-securing-your.html)
-*   [Chinese Hackers Abuse IPv6 SLAAC for AitM Attacks via Spellbinder Lateral Movement Tool](https://thehackernews.com/2025/04/chinese-hackers-abuse-ipv6-slaac-for-aitm.html)
-*   [Customer Account Takeovers: The Multi-Billion Dollar Problem You Don’t Know About](https://thehackernews.com/2025/04/customer-account-takeovers-multi.html)
-*   [Nebulous Mantis Targets NATO-Linked Entities with Multi-Stage Malware Attacks](https://thehackernews.com/2025/04/nebulous-mantis-targets-nato-linked.html)
-*   [RansomHub Went Dark April 1; Affiliates Fled to Qilin, DragonForce Claimed Control](https://thehackernews.com/2025/04/ransomhub-went-dark-april-1-affiliates.html)
-*   [Meta Launches LlamaFirewall Framework to Stop AI Jailbreaks, Injections, and Insecure Code](https://thehackernews.com/2025/04/meta-launches-llamafirewall-framework.html)
-*   [Indian Court Orders Action to Block Proton Mail Over AI Deepfake Abuse Allegations](https://thehackernews.com/2025/04/indian-court-orders-action-to-block-proton.html)
-*   [WhatsApp Launches Private Processing to Enable AI Features While Protecting Message Privacy](https://thehackernews.com/2025/04/whatsapp-launches-private-processing-to.html)
-*   [New Reports Uncover Jailbreaks, Unsafe Code, and Data Theft Risks in Leading AI Systems](https://thehackernews.com/2025/04/new-reports-uncover-jailbreaks-unsafe.html)
-*   [SentinelOne Uncovers Chinese Espionage Campaign Targeting Its Infrastructure and Clients](https://thehackernews.com/2025/04/sentinelone-uncovers-chinese-espionage.html)
-*   [Product Walkthrough: Securing Microsoft Copilot with Reco](https://thehackernews.com/2025/04/product-walkthrough-securing-microsoft.html)
-*   [Google Reports 75 Zero-Days Exploited in 2024 — 44% Targeted Enterprise Security Products](https://thehackernews.com/2025/04/google-reports-75-zero-days-exploited-in-2024.html)
-*   [Malware Attack Targets World Uyghur Congress Leaders via Trojanized UyghurEdit++ Tool](https://thehackernews.com/2025/04/malware-attack-targets-world-uyghur-congress.html)
-*   [CISA Adds Actively Exploited Broadcom and Commvault Flaws to KEV Database](https://thehackernews.com/2025/04/cisa-adds-actively-exploited-broadcom-and.html)
-*   [⚡ Weekly Recap: Critical SAP Exploit, AI-Powered Phishing, Major Breaches, New CVEs & More](https://thehackernews.com/2025/04/weekly-recap-critical-sap-exploit-ai-powered.html)
-*   [How Breaches Start: Breaking Down 5 Real Vulns](https://thehackernews.com/2025/04/how-breaches-start-breaking-down-5-real.html)
-*   [Earth Kurma Targets Southeast Asia With Rootkits and Cloud-Based Data Theft Tools](https://thehackernews.com/2025/04/earth-kurma-targets-southeast-asia-with-rootkits.html)
-*   [WooCommerce Users Targeted by Fake Patch Phishing Campaign Deploying Site Backdoors](https://thehackernews.com/2025/04/woocommerce-users-targeted-by-fake-patch.html)
-*   [Hackers Exploit Critical Craft CMS Flaws; Hundreds of Servers Likely Compromised](https://thehackernews.com/2025/04/hackers-exploit-critical-craft-cms-flaws.html)
-*   [Storm-1977 Hits Education Clouds with AzureChecker, Deploys 200+ Crypto Mining Containers](https://thehackernews.com/2025/04/storm-1977-hits-education-clouds-with-azurechecker.html)
+## ⚖️ Les États-Unis Inculpent un Hacker Yéménite Responsable du Ransomware Black Kingdom C当时的ant 1 500 Systèmes
+Le ministère de la Justice des États-Unis (DoJ) a annoncé jeudi l'inculpation d'un Yéménite de 36 ans pour son rôle dans le déploiement du ransomware Black Kingdom visant environ 1 500 systèmes.
+📅 Sat, 03 May 2025 12:36:00 +0530
 
----
+## 🦠 MintsLoader Déploie GhostWeaver via Phishing et ClickFix — Utilise DGA, TLS pour des Attaques Furtives
+Le loader de malware connu sous le nom de MintsLoader a été utilisé pour livrer un cheval de Troie d'accès à distance basé sur PowerShell (GhostWeaver) via des campagnes de phishing et des méthodes d'ingénierie sociale comme "ClickFix", employant la DGA et TLS pour la furtivité.
+📅 Fri, 02 May 2025 14:27:00 +0530
 
-📰 U.S. Charges Yemeni Hacker Behind Black Kingdom Ransomware Targeting 1,500 Systems
-Le département de la Justice américain (DoJ) a annoncé jeudi des poursuites contre un ressortissant yéménite de 36 ans derrière le ransomware Black Kingdom, qui aurait ciblé 1 500 systèmes.
-*   📅 Sat, 03 May 2025 12:36:00 +0530
+## 🛠️ Un Faux Plugin de Sécurité sur WordPress Permet un Accès Admin à Distance aux Attaquants
+Des chercheurs en cybersécurité ont mis en lumière une nouvelle campagne ciblant les sites WordPress qui se déguise en faux plugin de sécurité pour obtenir un accès administrateur à distance et y injecter du code malveillant.
+📅 Thu, 01 May 2025 21:17:00 +0530
 
-📰 TikTok Slammed With €530 Million GDPR Fine for Sending E.U. Data to China
-La Commission irlandaise de protection des données (DPC) a infligé vendredi une amende de 530 millions d'euros à la populaire plateforme de partage de vidéos TikTok pour avoir envoyé des données de l'UE en Chine.
-*   📅 Fri, 02 May 2025 17:55:00 +0530
+## 🤖 L'IA Claude Exploité pour Opérer Plus de 100 Fausses Personnalités Politiques dans une Campagne d'Influence Mondiale
+La société d'intelligence artificielle (IA) Anthropic a révélé que des acteurs de menace inconnus ont exploité son modèle Claude AI pour générer du contenu et opérer plus de 100 fausses personnalités dans le cadre d'une campagne d'influence mondiale.
+📅 Thu, 01 May 2025 16:32:00 +0530
 
-📰 How to Automate CVE and Vulnerability Advisory Response with Tines
-Dirigée par l'équipe de la plateforme d'orchestration de flux de travail et d'IA Tines, la bibliothèque Tines propose des flux de travail pré-construits
-*   📅 Fri, 02 May 2025 16:00:00 +0530
+## 🔥 Les Malwares DarkWatchman et Sheriff Frappent la Russie et l'Ukraine avec des Tactiques Furtives et de Niveau National
+Des entreprises russes ont été ciblées dans le cadre d'une campagne de phishing à grande échelle conçue pour déployer les malwares DarkWatchman et Sheriff, utilisant des tactiques avancées pour l'espionnage et la perturbation.
+📅 Thu, 01 May 2025 14:57:00 +0530
 
-📰 MintsLoader Drops GhostWeaver via Phishing, ClickFix — Uses DGA, TLS for Stealth Attacks
-Le chargeur de malware connu sous le nom de MintsLoader a été utilisé pour livrer un outil d'accès à distance basé sur PowerShell
-*   📅 Fri, 02 May 2025 14:27:00 +0530
+## 🚨 Commvault Confirme l'Exploitation par des Hackers de la CVE-2025-3928 en Tant que Jour Zéro dans une Brèche Azure
+La plateforme de sauvegarde de données d'entreprise Commvault a révélé qu'un acteur de menace étatique inconnu a exploité une faille de sécurité de jour zéro (CVE-2025-3928) dans son logiciel, entraînant une brèche dans Azure.
+🐞 CVE: CVE-2025-3928 [https://www.cve.org/CVERecord?id=CVE-2025-3928](https://www.cve.org/CVERecord?id=CVE-2025-3928)
+📅 Thu, 01 May 2025 13:41:00 +0530
 
-📰 Microsoft Sets Passkeys Default for New Accounts; 15 Billion Users Gain Passwordless Support
-Un an après que Microsoft a annoncé la prise en charge des clés d'accès pour les comptes consommateurs, le géant de la technologie a annoncé
-*   📅 Fri, 02 May 2025 12:10:00 +0530
+## 🔒 SonicWall Confirme l'Exploitation Active de Failles Affectant Plusieurs Modèles d'Appareils
+SonicWall a révélé que deux failles de sécurité désormais corrigées impactant ses appareils SMA100 Secure Mobile Access sont activement exploitées dans la nature.
+📅 Thu, 01 May 2025 11:52:00 +0530
 
-📰 Fake Security Plugin on WordPress Enables Remote Admin Access for Attackers
-Des chercheurs en cybersécurité ont mis en lumière une nouvelle campagne ciblant les sites WordPress qui se déguise
-*   📅 Thu, 01 May 2025 21:17:00 +0530
+## 💨 Des Hackers Chinois Abusent de l'IPv6 SLAAC pour des Attaques AitM via l'Outil de Mouvement Latéral Spellbinder
+Un groupe APT (Advanced Persistent Threat) aligné sur la Chine, baptisé TheWizards, a été lié à un outil de mouvement latéral appelé Spellbinder qui abuse de la fonctionnalité IPv6 SLAAC pour faciliter les attaques Man-in-the-Middle (AitM).
+📅 Wed, 30 Apr 2025 16:35:00 +0530
 
-📰 Why top SOC teams are shifting to Network Detection and Response
-Les équipes du Security Operations Center (SOC) sont confrontées à un défi fondamentalement nouveau – les défis traditionnels
-*   📅 Thu, 01 May 2025 16:55:00 +0530
+## 🕵️ Nebulous Mantis Cible des Entités Liées à l'OTAN avec des Attaques de Malware Multi-Étapes
+Des chercheurs en cybersécurité ont mis en lumière un groupe d'espionnage cybernétique russophone appelé Nebulous Mantis qui cible des entités liées à l'OTAN et à l'Europe de l'Est avec des attaques de malware sophistiquées en plusieurs étapes.
+📅 Wed, 30 Apr 2025 15:50:00 +0530
 
-📰 Claude AI Exploited to Operate 100+ Fake Political Personas in Global Influence Campaign
-La société d'intelligence artificielle (IA) Anthropic a révélé que des acteurs de menaces inconnus ont exploité sa
-*   📅 Thu, 01 May 2025 16:32:00 +0530
+## 🇨🇳 SentinelOne Découvre une Campagne d'Espionnage Chinoise C当时ant son Infrastructure et ses Clients
+La société de cybersécurité SentinelOne a révélé qu'un groupe de menace lié à la Chine, surnommé PurpleHaze, mène une campagne d'espionnage cybernétique ciblant ses infrastructures et celles de ses clients.
+📅 Tue, 29 Apr 2025 18:37:00 +0530
 
-📰 New Research Reveals: 95% of AppSec Fixes Don’t Reduce Risk
-Depuis plus d'une décennie, les équipes de sécurité des applications sont confrontées à une ironie brutale : plus la détection est avancée,
-*   📅 Thu, 01 May 2025 15:14:00 +0530
+## 🎯 Malware Attack Targets World Uyghur Congress Leaders via Trojanized UyghurEdit++ Tool
+Dans une nouvelle campagne détectée en mars 2025, des membres importants du Congrès Mondial Ouïghour (WUC) vivant en dehors de la Chine ont été ciblés par une attaque de malware distribuée via une version troyanisée de l'outil UyghurEdit++.
+📅 Tue, 29 Apr 2025 11:13:00 +0530
 
-📰 DarkWatchman, Sheriff Malware Hit Russia and Ukraine with Stealth and Nation-Grade Tactics
-Des entreprises russes ont été ciblées dans le cadre d'une campagne de phishing à grande échelle conçue pour
-*   📅 Thu, 01 May 2025 14:57:00 +0530
+## ✅ La CISA Ajoute des Failles Broadcom et Commvault Activement Exploitées à sa Base de Données KEV
+L'U.S. Cybersecurity and Infrastructure Security Agency (CISA) a ajouté lundi deux failles de sécurité de haute gravité affectant Broadcom et Commvault à sa base de données KEV (Known Exploited Vulnerabilities), soulignant leur exploitation active.
+📅 Tue, 29 Apr 2025 09:51:00 +0530
 
-📰 Commvault Confirms Hackers Exploited CVE-2025-3928 as Zero-Day in Azure Breach
-La plateforme de sauvegarde de données d'entreprise Commvault a révélé qu'un acteur de menace d'État inconnu a violé
-*   🧩 CVE: [CVE-2025-3928](https://nvd.nist.gov/vuln/detail/CVE-2025-3928)
-*   📅 Thu, 01 May 2025 13:41:00 +0530
+## 📊 Google Signale 75 Jours Zéro Exploités en 2024 — 44 % C当时aient les Produits de Sécurité d'Entreprise
+Google a révélé avoir observé 75 vulnérabilités de jour zéro exploitées dans la nature en 2024, un chiffre en baisse par rapport à l'année précédente, mais a noté que 44% de ces jours zéro ciblaient les produits de sécurité d'entreprise.
+📅 Tue, 29 Apr 2025 15:41:00 +0530
 
-📰 SonicWall Confirms Active Exploitation of Flaws Affecting Multiple Appliance Models
-SonicWall a révélé que deux failles de sécurité, désormais corrigées, affectant ses appareils SMA100 Secure Mobile Access
-*   📅 Thu, 01 May 2025 11:52:00 +0530
+## ☁️ Earth Kurma Cible l'Asie du Sud-Est avec des Rootkits et des Outils de Vol de Données Basés sur le Cloud
+Les secteurs gouvernementaux et des télécommunications en Asie du Sud-Est sont devenus la cible d'un groupe d'espionnage cybernétique "sophistiqué" appelé Earth Kurma, qui utilise des rootkits et des outils de vol de données basés sur le cloud.
+📅 Mon, 28 Apr 2025 14:37:00 +0530
 
-📰 Researchers Demonstrate How MCP Prompt Injection Can Be Used for Both Attack and Defense
-Alors que le domaine de l'intelligence artificielle (IA) continue d'évoluer à un rythme rapide, de nouvelles recherches ont
-*   📅 Wed, 30 Apr 2025 21:29:00 +0530
+## 🎣 Utilisateurs WooCommerce C当时的 par une Campagne de Phishing de Faux Patchs Déployant des Portes Dérobées sur les Sites
+Des chercheurs en cybersécurité alertent sur une campagne de phishing à grande échelle ciblant les utilisateurs de WooCommerce en utilisant de faux e-mails de patchs logiciels pour inciter les victimes à installer des portes dérobées sur leurs sites e-commerce.
+📅 Mon, 28 Apr 2025 13:36:00 +0530
 
-📰 [Free Webinar] Guide to Securing Your Entire Identity Lifecycle Against AI-Powered Threats
-Combien de lacunes se cachent dans votre système d'identité ? Il ne s'agit plus seulement des connexions. Aujourd'hui, l'attaque
-*   📅 Wed, 30 Apr 2025 16:56:00 +0530
+## 💥 Des Hackers Exploitent des Failles Critiques de Craft CMS ; Des Centaines de Serveurs Probablement Compromis
+Des acteurs de menace ont été observés exploitant deux failles de sécurité critiques nouvellement divulguées dans Craft CMS, une plateforme de gestion de contenu, entraînant probablement la compromission de centaines de serveurs.
+📅 Mon, 28 Apr 2025 12:43:00 +0530
 
-📰 Chinese Hackers Abuse IPv6 SLAAC for AitM Attacks via Spellbinder Lateral Movement Tool
-Un groupe de menace persistante avancée (APT) aligné sur la Chine, nommé TheWizards, a été lié à un mouvement latéral
-*   📅 Wed, 30 Apr 2025 16:35:00 +0530
-
-📰 Customer Account Takeovers: The Multi-Billion Dollar Problem You Don’t Know About
-Tout le monde a des histoires de cybersécurité impliquant des membres de la famille. En voici une relativement courante. La seule
-*   📅 Wed, 30 Apr 2025 15:54:00 +0530
-
-📰 Nebulous Mantis Targets NATO-Linked Entities with Multi-Stage Malware Attacks
-Des chercheurs en cybersécurité ont mis en lumière un groupe d'espionnage cybernétique russophone nommé Nebulous
-*   📅 Wed, 30 Apr 2025 15:50:00 +0530
-
-📰 RansomHub Went Dark April 1; Affiliates Fled to Qilin, DragonForce Claimed Control
-Des chercheurs en cybersécurité ont révélé que l'infrastructure en ligne de RansomHub a "inexplicablement" disparu
-*   📅 Wed, 30 Apr 2025 15:45:00 +0530
-
-📰 Meta Launches LlamaFirewall Framework to Stop AI Jailbreaks, Injections, and Insecure Code
-Meta a annoncé mardi LlamaFirewall, un framework open-source conçu pour sécuriser l'intelligence artificielle
-*   📅 Wed, 30 Apr 2025 12:38:00 +0530
-
-📰 Indian Court Orders Action to Block Proton Mail Over AI Deepfake Abuse Allegations
-Un tribunal de grande instance de l'État indien du Karnataka a ordonné le blocage du service de messagerie électronique chiffré de bout en bout
-*   📅 Wed, 30 Apr 2025 10:15:00 +0530
-
-📰 WhatsApp Launches Private Processing to Enable AI Features While Protecting Message Privacy
-La populaire application de messagerie WhatsApp a dévoilé mardi une nouvelle technologie appelée Traitement Privé pour permettre des fonctionnalités d'IA tout en protégeant la confidentialité des messages
-*   📅 Tue, 29 Apr 2025 22:52:00 +0530
-
-📰 New Reports Uncover Jailbreaks, Unsafe Code, and Data Theft Risks in Leading AI Systems
-Divers services d'intelligence artificielle générative (GenAI) se sont avérés vulnérables à deux types
-*   📅 Tue, 29 Apr 2025 21:48:00 +0530
-
-📰 SentinelOne Uncovers Chinese Espionage Campaign Targeting Its Infrastructure and Clients
-La société de cybersécurité SentinelOne a révélé qu'un cluster de menaces lié à la Chine, surnommé PurpleHaze, a
-*   📅 Tue, 29 Apr 2025 18:37:00 +0530
-
-📰 Product Walkthrough: Securing Microsoft Copilot with Reco
-Découvrez comment Reco assure la sécurité de Microsoft 365 Copilot en repérant les invites risquées, en protégeant les données, en gérant
-*   📅 Tue, 29 Apr 2025 16:30:00 +0530
-
-📰 Google Reports 75 Zero-Days Exploited in 2024 — 44% Targeted Enterprise Security Products
-Google a révélé avoir observé 75 vulnérabilités zero-day exploitées dans la nature en 2024, en baisse par rapport à
-*   📅 Tue, 29 Apr 2025 15:41:00 +0530
-
-📰 Malware Attack Targets World Uyghur Congress Leaders via Trojanized UyghurEdit++ Tool
-Dans une nouvelle campagne détectée en mars 2025, des membres importants du Congrès Mondial Ouïghour (WUC) vivant à
-*   📅 Tue, 29 Apr 2025 11:13:00 +0530
-
-📰 CISA Adds Actively Exploited Broadcom and Commvault Flaws to KEV Database
-L'Agence américaine de cybersécurité et de sécurité des infrastructures (CISA) a ajouté lundi deux failles de sécurité de haute gravité
-*   📅 Tue, 29 Apr 2025 09:51:00 +0530
-
-📰 ⚡ Weekly Recap: Critical SAP Exploit, AI-Powered Phishing, Major Breaches, New CVEs & More
-Que se passe-t-il lorsque les cybercriminels n'ont plus besoin de compétences approfondies pour franchir vos défenses ? Les attaquants d'aujourd'hui
-*   📅 Mon, 28 Apr 2025 17:48:00 +0530
-
-📰 How Breaches Start: Breaking Down 5 Real Vulns
-Chaque vulnérabilité de sécurité n'est pas à haut risque en soi - mais entre les mains d'un attaquant avancé,
-*   📅 Mon, 28 Apr 2025 16:30:00 +0530
-
-📰 Earth Kurma Targets Southeast Asia With Rootkits and Cloud-Based Data Theft Tools
-Les secteurs gouvernemental et des télécommunications en Asie du Sud-Est sont devenus la cible d'une "sophistiquée"
-*   📅 Mon, 28 Apr 2025 14:37:00 +0530
-
-📰 WooCommerce Users Targeted by Fake Patch Phishing Campaign Deploying Site Backdoors
-Des chercheurs en cybersécurité alertent sur une campagne de phishing à grande échelle ciblant les utilisateurs de WooCommerce
-*   📅 Mon, 28 Apr 2025 13:36:00 +0530
-
-📰 Hackers Exploit Critical Craft CMS Flaws; Hundreds of Servers Likely Compromised
-Des acteurs de la menace ont été observés exploitant deux failles de sécurité critiques récemment divulguées dans Craft CMS
-*   📅 Mon, 28 Apr 2025 12:43:00 +0530
-
-📰 Storm-1977 Hits Education Clouds with AzureChecker, Deploys 200+ Crypto Mining Containers
-Microsoft a révélé qu'un acteur de la menace qu'il suit sous le nom de Storm-1977 a mené des attaques par pulvérisation de mots de passe
-*   📅 Sun, 27 Apr 2025 10:32:00 +0530
+## ☁️ Storm-1977 Frappe les Clouds Éducatifs avec AzureChecker, Déploie Plus de 200 Conteneurs de Crypto-Minage
+Microsoft a révélé qu'un acteur de menace qu'il suit sous le nom de Storm-1977 a mené des attaques par pulvérisation de mots de passe et d'autres tactiques pour compromettre des environnements cloud éducatifs, utilisant un outil appelé AzureChecker et déployant plus de 200 conteneurs de crypto-minage.
+📅 Sun, 27 Apr 2025 10:32:00 +0530
