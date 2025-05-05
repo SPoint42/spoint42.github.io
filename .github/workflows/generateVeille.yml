@@ -30,7 +30,7 @@ jobs:
         run: |
             source venv/bin/activate
             chmod +x scripts/veille/generateVeille.sh
-            venv/bin/python3 scripts/veille/pocGemini.py -o $1 -o `pwd`/_posts/`date +'%Y-%m'`
+            venv/bin/python3 scripts/veille/pocGemini.py -o `pwd`/_posts/`date +'%Y-%m'`
             ls -la _posts/`date +'%Y-%m'`
           
           
