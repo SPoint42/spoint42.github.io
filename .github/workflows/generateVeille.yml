@@ -30,8 +30,8 @@ jobs:
         run: |
             source venv/bin/activate
             chmod +x scripts/veille/generateVeille.sh
-            scripts/veille/generateVeille.sh
-            ls -la `date +'%Y-%m-%d'`
+            scripts/veille/generateVeille.sh -o `pwd`/_posts/`date +'%Y-%m'`
+            ls -la _posts/`date +'%Y-%m'`
           
           
             
