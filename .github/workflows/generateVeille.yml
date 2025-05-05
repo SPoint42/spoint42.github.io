@@ -24,14 +24,22 @@ jobs:
             source venv/bin/activate
             pip install -r scripts/veille/requirements.txt
             
-      - name: Run shell script
+      - name: Run Veille for Gemini Flash 2.0
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
             source venv/bin/activate
-            ls -la _posts/fr/`date +'%Y-%m'`
             venv/bin/python3 scripts/veille/pocGemini.py -o _posts/fr/`date +'%Y-%m'`
+            ls -la _posts/fr/`date +'%Y-%m'`
           
-          
+      - name: Commit and push changes
+        run: |
+          CURRENT_DATE=$(date +'%Y-%m-%d')
+          echo "Ajout des fichiers générés le $CURRENT_DATE"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add _posts/fr/`date +'%Y-%m'`
+          git commit -m "Ajout des fichiers générés le $CURRENT_DATE"
+          git push
             
       
