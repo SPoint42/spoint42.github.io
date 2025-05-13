@@ -96,31 +96,31 @@ Voici un mapping des différents principes et des elements [STRIDE]({{home}}/202
 💡 Pour s'assurer que seuls les utilisateurs et services légitimes peuvent accéder à l' application GenAI, à ses 
 modèles et aux données potentiellement sensibles qu'elle traite. C'est la base pour savoir qui interagit avec le système.
 
-## Contrôle d'Accès au Moindre Privilège :
+## [Contrôle d'Accès au Moindre Privilège]({{home}}/2025/05/01/Zero-Trust-2) 🔒:
 💡 Limite l'impact potentiel en cas de compromission d'un compte ou d'une tentative d'abus par une entité légitime. 
 Empêche
 l'accès inutile aux fonctions sensibles de la GenAI (ex: administration, accès aux logs complets) ou aux données
 sous-jacentes.
 
-## Validation de la Conformité des Points d'Accès :
+## [Validation de la Conformité des Points d'Accès :]{{home}}/2025/05/05/Zero-Trust-3) 💻
 💡 Réduit le risque que des appareils compromis ou non sécurisés soient utilisés pour attaquer l'application GenAI, voler
 des données d'authentification, injecter des malwares ou exfiltrer des informations sensibles traitées par l'IA.
 
 
-## Micro-segmentation du Réseau :
+## [Micro-segmentation du Réseau :]({{home}}/2025/05/07/Zero-Trust-4) 🌐
 💡 Isoler les composants pour limiter l'impact d'une compromission, en sécurisant notamment les interfaces (API)
 entre les segments.
 
-## Sécurité des Données :
+## [Sécurité des Données :]({{home}}/2025/05/09/Zero-Trust-5) 🔐
 💡 Protège la confidentialité et l'intégrité des informations, même si elles sont interceptées ou si le stockage 
 est compromis.
 
-## Surveillance et Détection Continues :
+## [Surveillance et Détection Continues :]({{home}}/2025/05/12/Zero-Trust-6) 👁️
 💡 Permet de détecter les tentatives d'attaque (ex: force brute, [injection]({{home}}/2025/02/26/prompt) de prompt, 
 exfiltration de données), 
 de comprendre comment une brèche s'est produite, et de réagir rapidement. 
 
-## Validation et Filtrage des Entrées/Sorties 
+## [Validation et Filtrage des Entrées/Sorties ]({{home}}/2025/05/14/Zero-Trust-7) 🧹
 💡Empêche les attaques par [injection]({{home}}/2025/02/26/prompt) (spécifiquement l'[injection]({{home}}/2025/02/26/prompt) de prompt dans le 
 contexte GenAI) qui visent à 
 manipuler le modèle, contourner les règles, exfiltrer des données ou exécuter des actions non désirées.
