@@ -53,6 +53,7 @@ if __name__ == "__main__":
             ["https://www.cert.ssi.gouv.fr/feed/", "CERT-FR"],
             ["https://aws.amazon.com/security/security-bulletins/rss/feed/", "AWS-Security-Bulletins"],
             ["https://www.cisa.gov/cybersecurity-advisories/all.xml", "CISA"],
+            ["https://api.msrc.microsoft.com/update-guide/rss", "Microsoft-Security-Updates"],
             #         ["https://feeds.feedburner.com/GoogleOnlineSecurityBlog", "Google-Online-Security-Blog"],
 
         )
