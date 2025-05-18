@@ -32,11 +32,11 @@ garantir que les applications d'IA sont sûres, fiables et conformes aux normes 
 Voici le détail des articles de ce guide, qui sera mis à jour au fur et à mesure de la publication des articles:
 
 1. 📖 [Introduction à l'AISVS](#introduction-à-laisvs)
-2. 🔐 [Intégrité des données et confidentialité]<!--({%post_url 2025-05-19-AISVS-2 %}) -->
-3. 🛠️ [Sécurité des modèles]<!--({%post_url 2025-05-21-AISVS-3 %}) -->
-4. 📊 [Explicabilité et transparence des modèles]<!--({%post_url 2025-05-23-AISVS-4 %}) -->
-5. 🔒 [Sécurité de l'infrastructure et du déploiement]<!--({%post_url 2025-05-26-AISVS-5 %}) -->
-6.  ⚖️ [Considérations éthiques et de conformité]<!--({%post_url 2025-05-29-AISVS-6 %}) -->
+2. 🔐 [Intégrité des données et confidentialité]()
+3. 🛠️ [Sécurité des modèles]()
+4. 📊 [Explicabilité et transparence des modèles]()
+5. 🔒 [Sécurité de l'infrastructure et du déploiement]()
+6.  ⚖️ [Considérations éthiques et de conformité]()
 
 Pour plus d'informations, visitez le [dépôt GitHub OWASP AISVS](https://github.com/OWASP/AISVS).
 
