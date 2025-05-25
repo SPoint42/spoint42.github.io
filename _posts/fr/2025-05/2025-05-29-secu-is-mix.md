@@ -1,14 +1,21 @@
 ---
 layout: post
 title: "Sécuriser l'IA Générative : L'Alliance Stratégique de PASTA et STRIDE"
-author: Votre Nom
-date: 2025-05-30 10:00:00 +0200
-categories: [ Sécurité, IA Générative, Cybersécurité, Modélisation des Menaces ]
-tags: [ PASTA, STRIDE, IA, Sécurité, DevSecOps, PromptInjection, DataPoisoning ]
+author: Sébastien Gioria
+date: 2025-05-29 10:00:00 +0200
+categories:
+  - CyberSec
+  - Threat-Modeling
+  - STRIDE
+  - PASTA
+  - GenAI
+  - Fiche-Pratique
 ---
 
-Nous avons exploré séparément les forces de **PASTA**, la méthodologie de modélisation des menaces axée sur le risque,
-et de **STRIDE**, la taxonomie exhaustive des types de menaces. Le moment est venu de révéler comment ces deux
+Nous avons exploré séparément les forces de **[PASTA]({{home}}/2025/05/24/secu-ia-pasta)**, la méthodologie de 
+modélisation des menaces axée sur le risque,
+et de **[STRIDE]({{home}}/2025/025/26-secu-ia-stride)**, la taxonomie exhaustive des types de menaces. Le moment est 
+venu de révéler comment ces deux
 approches, lorsqu'elles sont combinées, deviennent un duo de choc pour sécuriser les applications d'IA générative, qui
 présentent des défis de sécurité uniques.
 
@@ -51,10 +58,7 @@ d'identification de menaces que vous utilisez à des moments clés de ce projet.
    En appliquant systématiquement STRIDE à chaque composant, vous vous assurez une couverture exhaustive des menaces,
    même celles spécifiques à l'IA générative qui pourraient être négligées par une approche plus générique.
 
-Voici un schéma illustrant la combinaison de PASTA et STRIDE pour la sécurité des applications d'IA générative :
-![Diagramme Combinaison PASTA et STRIDE pour l'IA Générative](/assets/images/pasta-stride-ai-security.png)
-*(N'oubliez pas de remplacer 'pasta-stride-ai-security.png' par le nom réel de votre fichier image et d'ajuster le
-chemin si nécessaire.)*
+
 
 ### Adresser les Spécificités de l'IA Générative avec la Synergie PASTA + STRIDE
 
@@ -85,20 +89,12 @@ approfondie :
 * **Simuler les attaques (PASTA - Étape 6) :** Testez concrètement comment les menaces STRIDE pourraient être exploitées
   sur votre application d'IA générative.
 * **Gérer les risques (PASTA - Étape 7) :** Priorisez les risques identifiés par STRIDE en fonction de leur probabilité
-  et de leur impact sur vos objectifs commerciaux. Mettez en œuvre des contre-mesures spécifiques :
-    * **Pour le Prompt Injection :** Utilisation de "guardrails" (cadres de protection), filtrage d'entrée robuste,
-      mécanismes de détection d'anomalies dans les prompts.
-    * **Pour la Sécurité des Données d'entraînement :** Traçabilité des données, validation rigoureuse des sources,
-      techniques de confidentialité différentielle.
-    * **Pour la Résilience face au Déni de Service :** Gestion intelligente des ressources, scalabilité élastique,
-      mécanismes de détection et de blocage des requêtes abusives.
-    * **Pour l'Audit et la Non-Répudiation :** Logging complet des requêtes et des réponses générées, avec horodatage et
-      identifiant utilisateur.
+  et de leur impact sur vos objectifs commerciaux. Mettez en œuvre des contre-mesures spécifiques
 
 ### Conclusion : La Sécurité Dès la Conception pour l'IA Générative
 
-En combinant la vision stratégique et axée sur le risque de **PASTA** avec la taxonomie exhaustive des menaces de *
-*STRIDE**, vous disposez d'un cadre puissant pour aborder la sécurité de vos applications d'IA générative. Cette
+En combinant la vision stratégique et axée sur le risque de **PASTA** avec la taxonomie exhaustive des menaces de 
+**STRIDE**, vous disposez d'un cadre puissant pour aborder la sécurité de vos applications d'IA générative. Cette
 approche intégrée vous permet non seulement d'identifier un large éventail de vulnérabilités, mais aussi de les
 prioriser efficacement, garantissant que vos efforts de sécurité sont alignés sur les objectifs commerciaux et les
 risques les plus critiques.
