@@ -9,19 +9,22 @@ import argparse
 import time
 import logging
 import sys
+import json
 
 DEBUG = False
 
 
 def parse_rss(xml_file):
     """Parse le fichier RSS et extrait les contenus clés"""
+    if DEBUG:
+        print (f"Parsing du fichier XML : {xml_file}")
     tree = ET.parse(xml_file)
     root = tree.getroot()
 
     articles = []
     for item in root.findall('.//item'):
         title = item.find('title').text
-        description = item.find('description').text[:100]
+        description = item.find('description').text[:100] if item.find('description') is not None else "No description"
         original_url = item.find('link').text
         pub_date = item.find('pubDate').text
         articles.append(f"#Title : {title}\n##Description : {description}\n##OriginalUrl : {original_url}\n##PubDate :"
@@ -48,17 +51,22 @@ if __name__ == "__main__":
                 print(f"""{m.display_name} : {m.name}""")
             exit(0)
 
-        rss_urls = (
-            ["https://feeds.feedburner.com/TheHackersNews", "The-Hacker-News"],
-            ["https://www.cert.ssi.gouv.fr/feed/", "CERT-FR"],
-            ["https://aws.amazon.com/security/security-bulletins/rss/feed/", "AWS-Security-Bulletins"],
-            ["https://www.cisa.gov/cybersecurity-advisories/all.xml", "CISA"],
-            ["https://api.msrc.microsoft.com/update-guide/rss", "Microsoft-Security-Updates"],
-            #         ["https://feeds.feedburner.com/GoogleOnlineSecurityBlog", "Google-Online-Security-Blog"],
+        # rss_urls = (
+        #     ["https://feeds.feedburner.com/TheHackersNews", "The-Hacker-News"],
+        #     ["https://www.cert.ssi.gouv.fr/feed/", "CERT-FR"],
+        #     ["https://aws.amazon.com/security/security-bulletins/rss/feed/", "AWS-Security-Bulletins"],
+        #     ["https://www.cisa.gov/cybersecurity-advisories/all.xml", "CISA"],
+        #     ["https://api.msrc.microsoft.com/update-guide/rss", "Microsoft-Security-Updates"],
+        #     #         ["https://feeds.feedburner.com/GoogleOnlineSecurityBlog", "Google-Online-Security-Blog"],
+        #
+        #
 
+        rss_urls = (
+            ["http://54.204.224.16:8000/api/rss/", "pocGemini"],
         )
+
         today = date.today().strftime("%Y-%m-%d")
-        os.mkdir(f"{today}") if not os.path.exists(f"{today}") else None
+        os.mkdir(f"{args.output}/{today}") if not os.path.exists(f"{args.output}/{today}") else None
         tabFile = list()
 
         if args.model:
@@ -79,7 +87,8 @@ if __name__ == "__main__":
                     with open(f"{url[1]}temp.xml", 'w') as f:
                         f.write(response.text)
 
-                    rsscontent = parse_rss(f"{url[1]}temp.xml")
+                rsscontent = parse_rss(url[1] + "temp.xml")
+
                 if rsscontent is not None:
                     format_article = f"""
 # ⚠️Important Security Alerts (CVSS > 7.5)⚠️
@@ -97,7 +106,7 @@ if __name__ == "__main__":
         """
 
                     prompt = f"""
-        Act like an CyberSecurity  monitoring expert. Here's the content of RSS feed:
+        Act like an CyberSecurity  monitoring expert. Here's the content of the feed:
             {rsscontent}.
                    
         You must extract the following elements on each element: 
@@ -128,7 +137,7 @@ if __name__ == "__main__":
         The final content of the article must be structured as follows:
         {format_article}
         """
-
+                print (f"Generation du contenu pour {url[1]} avec le modèle {modele}...")
                 response = client.models.generate_content(model=modele,
                                                           contents=[prompt])
                 if (args.output) :

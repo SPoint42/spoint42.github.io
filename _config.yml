@@ -27,6 +27,8 @@ url: "https://spoint42.github.io" # the base hostname & protocol for your site, 
 twitter_username: SPoint
 github_username:  SPoint42
 
+future: true
+
 # Build settings
 #theme: minima
 theme: jekyll-theme-so-simple
