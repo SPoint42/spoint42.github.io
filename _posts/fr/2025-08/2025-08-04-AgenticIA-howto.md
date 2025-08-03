@@ -13,6 +13,8 @@ categories:
 Voici donc la recette pour sécuriser les Agents IA, en se basant sur les principes de l'OWASP et les meilleures pratiques
 de sécurité. Cette approche vise à identifier les risques spécifiques aux Agents IA et à proposer des solutions adaptées.
 
+![howto.png]({{home}}/assets/img/2025-08/howto.png)
+
 #### **1. Les 5 Risques Principaux**
 
 Pour commencer notre exploration, nous allons nous concentrer sur les risques spécifiques aux Agents IA, qui diffèrent de ceux
