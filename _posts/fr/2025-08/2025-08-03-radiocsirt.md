@@ -10,7 +10,7 @@ categories:
 Je vous propose aujourd'hui un article tout simple qui résume l'épisode 374 de Radio CSIRT, diffusé le 3 août 2025. Cet épisode
 aborde les dernières tendances en matière de cybersécurité, avec un focus sur les nouvelles vulnérabilités, les menaces émergentes et les meilleures pratiques pour se protéger.
 
-Voila le lien vers l'épisode : [Radio CSIRT - Épisode 374](https://www.radiocsirt.fr/episode-374)
+Voila le lien vers l'épisode : [Radio CSIRT - Épisode 374](https://www.radiocsirt.org/podcast/votre-actu-cybersecurite-du-samedi-2-aout-2025-ep-374/)
 
 Et la liste des sujets abordés via un sketchnote simple : 
 
