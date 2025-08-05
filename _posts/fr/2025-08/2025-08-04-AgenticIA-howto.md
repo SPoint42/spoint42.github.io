@@ -7,6 +7,8 @@ categories:
   - CyberSec
   - OWASP
   - LLM
+  - GenAI 
+  - AgenticAI
 ---
 
 

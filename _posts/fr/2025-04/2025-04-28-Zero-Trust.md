@@ -6,6 +6,8 @@ categories:
 - CyberSec
 - OWASP
 - ZeroTrust
+- MCP
+- AgenticIA
 - GenAI
 ---
 
