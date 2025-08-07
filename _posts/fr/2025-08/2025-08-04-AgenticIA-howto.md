@@ -26,7 +26,7 @@ particulièrement critiques dans un contexte de sécurité.
 leur capacité à agir de manière autonome et à interagir avec des systèmes externes.
 
 Voici les 5 risques principaux que nous allons aborder :
-* **[Injection de Prompt Persistante]({{home}}/2025/08/07/agenticia-risks)** : Manipulation durable de l'agent.
+* **[Injection de Prompt Persistante]({{home}}/2025/08/07/agenticIa-risks/)** : Manipulation durable de l'agent.
 * **Détournement d'Outil** : Utilisation abusive des outils de l'agent.
 * **Fuite de Données** : Exfiltration de données via les actions de l'agent.
 * **Actions Malveillantes Autonomes** : Décisions dangereuses prises par l'agent sans intervention humaine.
