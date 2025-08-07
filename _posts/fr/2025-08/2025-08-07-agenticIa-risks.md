@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2025-08-07 20:00:00 
+date: 2025-08-07 16:00:00 +0200
 title: "🧑‍🍳 Agentic AI : Risque 1 des Agents IA  -  Injection de Prompt Persistante 🎯"
 categories:
   - Fiche-Pratique
