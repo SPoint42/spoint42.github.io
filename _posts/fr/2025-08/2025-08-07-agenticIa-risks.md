@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-08-07 16:00:00 +0200
-title: "🧑‍🍳 Agentic AI : Risque 1 des Agents IA  -  Injection de Prompt Persistante 🎯"
+title: "🧑‍ Agentic AI : Risque 1 des Agents IA  -  Injection de Prompt Persistante 🎯"
 categories:
   - Fiche-Pratique
   - CyberSec
