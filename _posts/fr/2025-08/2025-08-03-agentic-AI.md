@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2025-08-03 10:00:00 +0200
-title: "Introduction à l'Agentic AI : Comprendre les Fondamentaux"
+title: "🧑‍🏫 Introduction à l'Agentic AI : Comprendre les Fondamentaux" 
 categories:
   - CyberSec
   - OWASP
