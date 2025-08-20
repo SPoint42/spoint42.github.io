@@ -4,3 +4,7 @@ _site
 .jekyll-metadata
 vendor
 .idea
+_config.yml
+.gitignore
+Gemfile.lock
+
