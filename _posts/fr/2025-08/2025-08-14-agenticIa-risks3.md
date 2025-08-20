@@ -19,6 +19,7 @@ Ce risque se manifeste lorsque l'agent a accès à des données confidentielles 
 et qu'un attaquant parvient à le manipuler pour qu'il extraie et transmette ces informations vers des systèmes externes.
 L'agent peut être trompé pour inclure des données sensibles dans ses réponses ou utiliser ses outils pour les envoyer ailleurs.
 
+
 # **Exemple de Code Python**
 
 Voici un agent qui peut accéder à une base de données cliente et envoyer des emails de rapport.
