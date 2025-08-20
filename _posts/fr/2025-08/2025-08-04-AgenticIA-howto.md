@@ -29,7 +29,7 @@ Voici les 5 risques principaux que nous allons aborder :
 * **[Injection de Prompt Persistante]({{home}}/2025/08/07/agenticIa-risks/)** : Manipulation durable de l'agent.
 * **[Détournement d'Outil]({{home}}/2025/08/11/agenticIa-risks2)** : Utilisation abusive des outils de l'agent.
 * **[Fuite de Données]({{home}}/2025/08/14/agenticIa-risks3)** : Exfiltration de données via les actions de l'agent.
-* **Actions Malveillantes Autonomes** : Décisions dangereuses prises par l'agent sans intervention humaine.
+* **[Actions Malveillantes Autonomes]({{home}}/2025/08/19/agenticIa-risks4)** : Décisions dangereuses prises par l'agent sans intervention humaine.
 * **Vulnérabilité d'Exécution de Code** : Code généré ou exécuté par l'agent qui contient des failles.
 
 ---
