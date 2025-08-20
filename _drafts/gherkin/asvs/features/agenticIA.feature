@@ -1,3 +1,17 @@
+---
+layout: post
+date: 2042-03-03
+title: "OWASP Top 10 LLM10-2025 - 💥Consommation non limitée💥"
+categories:
+  - veille
+  - CyberSec
+  - Top10
+  - OWASP
+  - LLM
+
+---
+
+
 Feature: V2.13 Session Management Authentication Security Requirements
   As an application security professional
   I want to verify that our application meets OWASP ASVS v4 session management requirements
