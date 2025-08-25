@@ -22,7 +22,7 @@ author: sgioria
 description: "Découverte d'une nouvelle vulnérabilité PROMISQROUTE qui permet de contourner les mécanismes de sécurité des IA en manipulant le routage des requêtes vers des modèles moins sécurisés"
 ---
 
-Les chercheurs en sécurité d'**[Adversa AI](https://adversa.ai/blog/promisqroute-gpt-5-ai-router-novel-vulnerability-class/)** on découvert une faille rigolote :)  **PROMISQROUTE**. Cette faille révèle un défaut architectural majeur dans les services IA comme ChatGPT-5, permettant aux attaquants de contourner les mesures de sécurité en forçant le routage vers des modèles moins sécurisés.
+Les chercheurs en sécurité d'**[Adversa AI](https://adversa.ai/blog/promisqroute-gpt-5-ai-router-novel-vulnerability-class/)** ont découvert une faille rigolote :)  **PROMISQROUTE**. Cette faille révèle un défaut architectural majeur dans les services IA comme ChatGPT-5, permettant aux attaquants de contourner les mesures de sécurité en forçant le routage vers des modèles moins sécurisés.
 
 ## Qu'est-ce que PROMISQROUTE ?
 
