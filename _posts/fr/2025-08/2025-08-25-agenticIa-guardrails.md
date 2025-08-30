@@ -35,7 +35,7 @@ Les guardrails constituent un élément essentiel de la sécurisation des agents
 - Impact sur la latence et stratégies d'optimisation
 - Choix architectural selon le contexte d'usage
 
-**[🔗 Lire l'article complet]({{home}}/2025/08/25/agenticIa-guardrails-1-introduction/)**
+**[🔗 Lire l'article complet]({{home}}/2025/08/28/agenticIa-guardrails-1-introduction/)**
 
 ---
 
@@ -119,7 +119,7 @@ Les guardrails constituent un élément essentiel de la sécurisation des agents
 
 ---
 
-# **Parcours de Lecture Recommandé en fonction du public :)** 
+# **Parcours de Lecture Recommandé en fonction du public**😊 
 
 ## **👨‍💻 Pour les Développeurs**
 1. **Article 1** → Comprendre les concepts et l'architecture
