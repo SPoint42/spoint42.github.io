@@ -21,7 +21,6 @@ Dans notre série sur la sécurisation des Agents IA, nous abordons aujourd'hui 
 Les guardrails constituent un élément essentiel de la sécurisation des agents IA. Cette série de 4 articles couvre de nombreux aspects nécessaires pour comprendre, implémenter et maintenir des guardrails efficaces.
 
 ## **📖 Article 1 : Introduction et Concepts Fondamentaux**
-**[🔗 Lire l'article complet]({{home}}/2025/08/25/agenticIa-guardrails-1-introduction/)**
 
 ### **Ce qui est abordé :**
 - ✅ **Définition** et rôle des guardrails dans l'IA
@@ -36,10 +35,11 @@ Les guardrails constituent un élément essentiel de la sécurisation des agents
 - Impact sur la latence et stratégies d'optimisation
 - Choix architectural selon le contexte d'usage
 
+**[🔗 Lire l'article complet]({{home}}/2025/08/25/agenticIa-guardrails-1-introduction/)**
+
 ---
 
 ## **🛡️ Article 2 : Types de Guardrails et Stratégies de Mitigation**
-**[🔗 Lire l'article complet]({{home}}/2025/08/26/agenticIa-guardrails-2-types/)**
 
 ### **Ce qui est abordé :**
 - ✅ **Guardrails d'entrée** : détection jailbreaking, injection, PII
@@ -54,10 +54,11 @@ Les guardrails constituent un élément essentiel de la sécurisation des agents
 - Patterns de détection pour différents types de menaces
 - Stratégies de résilience et fallback
 
+**[🔗 Lire l'article complet]({{home}}/2025/08/26/agenticIa-guardrails-2-types/)**
+
 ---
 
 ## **🔧 Article 3 : Technologies et Implémentation Pratique**
-**[🔗 Lire l'article complet]({{home}}/2025/08/27/agenticIa-guardrails-3-technologies/)**
 
 ### **Ce qui est abordé :**
 - ✅ **Solutions disponibles** : open source vs enterprise
@@ -72,10 +73,11 @@ Les guardrails constituent un élément essentiel de la sécurisation des agents
 - Techniques d'optimisation : cache, parallélisation
 - Tests adversariaux et résistance aux évasions
 
+**[🔗 Lire l'article complet]({{home}}/2025/08/27/agenticIa-guardrails-3-technologies/)**
+
 ---
 
 ## **🚀 Article 4 : DevSecOps, Monitoring et Bonnes Pratiques**
-**[🔗 Lire l'article complet]({{home}}/2025/08/28/agenticIa-guardrails-4-devSecOps/)**
 
 ### **Ce qui est abordé :**
 - ✅ **Intégration CI/CD** et tests automatisés
@@ -89,6 +91,8 @@ Les guardrails constituent un élément essentiel de la sécurisation des agents
 - Métriques business et techniques, alerting intelligent
 - Framework de gouvernance et gestion des risques
 - Cycle d'amélioration continue et innovation
+
+**[🔗 Lire l'article complet]({{home}}/2025/08/28/agenticIa-guardrails-4-devSecOps/)**
 
 ---
 
