@@ -10,6 +10,8 @@ categories:
   - GenAI
   - AgenticAI
 ---
+> **⚠️ Série en cours de publication : tous les contenus ne sont pas encore disponibles.**
+<div style="width:100%;background:#ffe066;color:#333;padding:10px 0;text-align:center;font-weight:bold;border-radius:5px;margin-bottom:20px;">⏳ Work in progress</div>
 
 Dans notre série sur la sécurisation des Agents IA, nous abordons aujourd'hui un aspect fondamental : **sécuriser le "cerveau" de l'agent** en implémentant des guardrails (gardes-fous). Cette série , pour les presques nuls,  de 4 articles vous guide à travers de nombreux aspects des guardrails, de la théorie à la presque totale mise en pratique.
 
